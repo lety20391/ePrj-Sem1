@@ -1,0 +1,45 @@
+.main-level2 {
+
+}
+
+.main-content-level2 {
+    margin: 2% 0;
+}
+
+
+.images-main-content {
+
+}
+
+.images-main-content img {
+    width: 100%;
+}
+
+.paragraph-main-content {
+    
+}
+
+.paragraph-main-content p {
+    text-align: justify;
+}
+.title-main-content {
+    text-align: center;
+    margin: 0 0 1% 0;
+    padding-bottom: 1%;
+    border-bottom: 2px solid silver;
+    font-family: 'Cookie', 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+.aside {
+    
+}
+
+.aside {
+    position: fixed;
+}
+
+.aside img {
+    margin-bottom: 10%;
+    width: 100%;
+}

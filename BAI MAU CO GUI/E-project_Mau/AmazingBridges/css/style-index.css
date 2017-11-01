@@ -1,0 +1,157 @@
+/*HEADER*/
+
+    /*SIDESHOW*/
+.sidebar{
+    margin-top: 50px;
+}
+
+.casourel-style {
+    max-height: 460px;
+    /*THÊM THUỘC TÍNH MIN-HEIGHT ĐỂ LÀM HÌNH TO NHẤT.
+    min-height: 660px;
+    */
+}
+
+.paragraph-side {
+    font-family: 'Cookie', sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+}
+    /*REVIEW*/
+
+.review{
+    margin: 1.5% 0 1% 0;
+    padding: 1% 0;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+
+.content-review{
+    margin: 0;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Cookie', sans-serif;
+}
+
+/*MAIN CONTENT*/
+
+/*NEWS*/
+
+.title-new {
+    margin: 0 0 0 1%;
+    font-family: 'Lobster', sans-serif;
+    font-size: 30px;
+}
+
+.new {
+    margin: 2.5% 0;
+}
+
+    /*IMAGES NEW*/
+
+.images-new {
+    
+}
+
+.content-images-new {
+    width: 100%;
+    height: auto;
+}
+
+    /*ABOUT NEW*/
+
+.paragraph-new {
+    
+}
+
+.title-paragraph-new {
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    border-bottom: 2px solid silver;
+}
+
+.content-title-paragraph-new {
+    margin: 1% 0;
+}
+
+.content-title-paragraph-new a {
+    font-size: 24px;
+    color: black;
+    font-family: 'Lobster', sans-serif;
+}
+
+.content-title-paragraph-new a:hover {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.about-new {
+    padding: 0 10px;
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.about-new a{
+    text-decoration: none;
+}
+
+.content-paragraph-new {
+    margin: 0px;
+}
+
+    /*SOCIAL MEDIA NEW*/
+
+.social-media-new {
+    margin: 1% 0;
+}
+
+.content-social-media-new {
+    width: 100%;
+}
+
+.icon-social-media {
+    padding: 2% 2%;
+    margin: 0;
+    color: black;
+}
+
+.icon-social-media:hover {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.line {
+    margin-top: 8px;
+    border-bottom: 3px solid silver;
+    border-top: 1px solid black;
+}
+
+/*GALLERY*/
+.title-gallery {
+    border-top: 1px solid silver;
+    padding-top: 1%;
+    margin: 0 0 0 1%;
+    font-family: 'Lobster', sans-serif;
+    font-size: 30px;
+}
+
+.gallery {
+    padding: 1% 1%;
+}
+
+.border-gallery {
+    margin: 2% 0;
+}
+
+.content-gallery {
+    width: 100%;
+    cursor: pointer;
+}
+
+.aside {
+    margin-bottom: 10%;
+}
+
+.aside img {
+    width: 100%;
+}

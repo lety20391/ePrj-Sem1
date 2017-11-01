@@ -1,0 +1,327 @@
+/*MAIN CONTENT*/
+
+.main-content {
+    margin-top: 50px;
+}
+
+.title-main-content {
+    font-size: 36px;
+    text-align: center;
+    margin: 1% 0 0% 0;
+    border-bottom: 2px solid silver;
+    font-family: 'Cookie', 'Open Sans', sans-serif;
+}
+
+.aside {
+    position: fixed;
+    width: 31%;
+    margin-top: 1%;
+}
+
+/*INFORMATION*/
+
+.information {
+    margin: 1% 0 2% 0;
+    padding-bottom: 1%;
+    border-bottom: 2px solid silver;
+}
+
+    /*REVIEW INFORMATION*/
+
+.review-information {
+    margin: 0;
+    padding: 0;
+}
+
+
+.title-review-information {
+    font-size: 24px;
+    margin: 0;
+    font-family: 'Teko', 'Open Sans', sans-serif;
+}
+
+.border-review-information {
+    padding: 2%;
+    border-bottom: 1px solid silver;
+}
+
+.icon-infomation {
+    float: right;
+}
+
+.content-review-information {
+    font-size: 14px;
+    margin: 0;
+    padding-top: 2%;
+}
+
+.title-information {
+    margin: 0;
+}
+
+    /*CONTENT INFORMATION*/
+
+/*GALLERY*/
+    
+.gallery-level-3 {
+    margin: 1% 0 1% 0;
+    padding-bottom: 2%;
+    border-bottom: 2px solid silver;
+}
+
+    /*LIST GALLERY COL*/
+
+
+.list-gallery-col {
+
+}
+
+.list-gallery-col {
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+    .list-gallery-col:last-child {
+        margin-bottom: 0;
+    }
+
+.list-gallery-row {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.list-gallery-row:hover {
+    cursor: pointer;
+}
+    .list-gallery-col, list-gallery-row:hover {
+        cursor: pointer;
+    }
+
+    /*CONTENT GALLERY*/
+
+.content-gallery-level-3 {
+    position: relative;
+}
+
+.content-gallery-level-3 img{
+    max-height: 400px;
+}
+
+.paragraph-content-information {
+    text-align: justify;
+}
+
+    /*LIST GALLERY ROW*/
+
+.list-gallery-row {
+    
+}
+
+/*HISTORY*/
+
+.history {
+    margin: 1% 0 0 0;
+    padding-bottom: 1%;
+    border-bottom: 2px solid silver;
+}
+
+.title-history {
+    margin: 0 0 1% 0;
+    font-family: 'Lobster', sans-serif;
+}
+
+.content-history {
+    text-align: justify;
+}
+
+/*TOURIST*/
+
+.tourist {
+    margin: 1% 0 1% 0;
+    padding-bottom: 1%;
+    border-bottom: 2px solid silver;
+}
+
+.title-tourist {
+    font-family: 'Lobster', sans-serif;
+}
+
+.list-tourist {
+    
+}
+
+.title-list-tourist {
+    font-family: 'Pacifico', 'Open Sans',sans-serif;
+    font-size: 20px;
+}
+
+.content-tourist {
+    margin-left: 2%;
+}
+
+.title-content-tourist {
+    margin: 2% 0 1% 0;
+    font-size: 16px;
+    font-family: 'Pacifico', 'Open Sans',sans-serif;
+}
+
+.paragraph-content-tourist {
+    font-size: 14px;
+    margin-left: 4%;
+}
+
+.list-content-tourist {
+    display: block;
+    margin-left: 5%;
+    font-size: 14px;
+}
+
+/*COMMENT AND MAP*/
+
+    /*LIST COMMENT*/
+
+.comment {
+
+}
+
+.list-comment {
+    border-bottom: 2px solid silver;
+}
+
+.title-list-comment {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.date-list-comment {
+    color: dimgrey;
+    font-size: 12px;
+}
+
+.content-list-comment {
+    
+}
+
+    /*FORM COMMENT*/
+
+.reply-comment {
+    margin: 3% 0;
+}
+
+.title-reply-comment {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 2% 0;
+}
+
+.form-reply {
+    font-size: 12px;
+}
+
+.input-comment {
+    font-size: 14px;
+    padding: 3%;
+    width: 100%;
+    height: 100px;
+}
+
+.paragraph-comment {
+    line-height: 30px;
+    margin:0;
+    font-size: 12px;
+}
+
+.icon-social-media-comment {
+
+}
+
+.icon-social-media-comment a {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: right;
+    color: dimgrey;
+    padding: 5px;
+}
+
+.icon-social-media-comment a:hover{
+    color: dodgerblue;
+}
+
+.data-user {
+    padding: 1%;
+    width: 100%;
+    margin: 1% 0;
+}
+
+.submit-comment {
+    text-transform: uppercase;
+    margin: 1% 0;
+}
+
+/*ASIDE*/
+.panel-heading {
+    padding: 0;
+}
+
+    .panel-heading :hover{
+        cursor: pointer;
+    }
+
+    .panel-heading a:hover{
+        text-decoration: none;
+    }
+
+.panel-title a {
+    text-transform: uppercase;
+    display: block;
+    padding: 2%;
+    text-decoration: none;
+    font-family: 'Righteous', 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+.panel-title a:hover, .panel-title a:focus {
+    color: white;
+    background-color: chocolate;
+}
+
+.panel-body {
+    padding: 0;
+}
+
+.panel-body-style{
+    display: block;
+    padding: 2%;
+}
+
+    .panel-body-style:hover {
+        background-color: dodgerblue;
+        color: white;
+        text-decoration: none;
+    }
+
+.panel-body p {
+    margin: 0;
+    padding: 3%;
+    text-align: justify;
+}
+
+
+.top-bridges {
+    padding: 3%;
+}
+
+.list-top-bridges {
+
+}
+
+.main-content-level3 {
+    
+}
+
+.map {
+    height: 400px;
+    width: 100%;
+}

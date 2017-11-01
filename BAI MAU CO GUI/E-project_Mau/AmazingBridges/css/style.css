@@ -1,0 +1,96 @@
+/*DEFAULT*/
+.test {
+    margin: 2% 0;
+    border: 1px solid black;
+    height: 300px;
+}
+
+*{
+    font-size: 16px;
+    box-sizing:border-box;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.silver {
+    color: silver;
+}
+
+.breadcrumb {
+    margin: 3.5% 0 0 0;
+}
+
+/*CONTAINER*/
+
+.container{
+    
+}
+
+/*LOGO*/
+
+.logo {
+    float: left;
+    margin-top: -10px;
+    width: 40px;
+    height: 40px;
+}
+
+.text-logo {
+    font-weight: bold;
+    margin-left: 10px;
+    transition: 0.8s;
+}
+
+#myPages:hover .text-logo{
+    font-size: 20px;
+    color: dodgerblue;
+}
+
+/*MENU*/
+
+.navbar-default {
+    opacity: 0.8;
+    border: none;
+
+}
+
+.navbar-nav > li > a {
+    text-transform: uppercase;
+    font-family: 'Germania One';
+    font-size: 20px;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    background: #1d93e5;
+    color: white;
+}
+
+/*FOOTER*/
+
+.footer {
+    margin: 2% 0 0 0;
+    background: silver;
+    color: white;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+    /*COPY RIGHT*/
+
+.paragraph-copyright {
+    margin: 0;
+    font-size: 16px;
+}
+
+    /*ABOUT*/
+
+.content-about a {
+    margin: 0 5%;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.content-about a:hover {
+    color: darkgreen;
+}
+

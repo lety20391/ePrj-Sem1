@@ -1,0 +1,51 @@
+
+
+
+.title-guide {
+    text-align: center;
+    margin: 0;
+    font-family: 'Cookie', sans-serif;
+    font-size: 60px;
+}
+
+.paragraph-about {
+    font-family: 'Lobster', sans-serif;
+    font-size: 26px;
+    margin: 0;
+}
+.paragraph-about a {
+    font-size: 15px;
+}
+
+
+.images-about {
+    width: 100%;
+}
+
+.guide {
+    margin-top: 50px;
+}
+
+.main-content-about {
+    margin: 1% 0;
+    padding: 2% 0;
+}
+
+.question-guide-faq {
+    font-weight: bold;
+}
+
+.guide-faq {
+    margin: 0 10%;
+}
+
+.guide-advertisement {
+    margin: 0 5%;
+}
+
+.paragraph-dvertisement {
+    margin-top: 1%;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Righteous', sans-serif;
+}
