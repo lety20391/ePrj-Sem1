@@ -1,0 +1,159 @@
+/*BEGIN OPEN SANS LIGHT*/
+@font-face{
+    font-family: 'Open Sans';
+    src: url(../fonts/Open_Sans/OpenSans-Light.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+/*BEGIN OPEN SANS LIGHT ITALIC*/
+@font-face{
+    font-family: 'Open Sans';
+    src: url(../fonts/Open_Sans/OpenSans-LightItalic.ttf);
+    font-style: italic;
+    font-weight: 100;
+}
+
+/*BEGIN OPEN SANS REGULAR*/
+@font-face{
+    font-family: 'Open Sans';
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*BEGIN OPEN SANS LIGHT*/
+@font-face{
+    font-family: 'Open Sans';
+    src: url(../fonts/Open_Sans/OpenSans-Light.ttf.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+/*BEGIN OPEN SANS BOLD*/
+@font-face{
+    font-family: 'Open Sans';
+    src: url(../fonts/Open_Sans/OpenSans-SemiBold.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+/*BEGIN OPEN SANS BOLD ITALIC*/
+@font-face{
+    font-family: 'Open Sans';
+    src: url(../fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf);
+    font-style: italic;
+    font-weight: 500;
+}
+
+/*BEGIN OPEN SANS BOLD*/
+@font-face{
+    font-family: 'Open Sans';
+    src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+/*BEGIN OPEN SANS BOLD ITALIC*/
+@font-face{
+    font-family: 'Open Sans';
+    src: url(../fonts/Open_Sans/OpenSans-BoldItalic.ttf);
+    font-style: italic;
+    font-weight: 700;
+}
+
+/*BEGIN OPEN SANS EXTRA BOLD*/
+@font-face{
+    font-family: 'Open Sans';
+    src: url(../fonts/Open_Sans/OpenSans-ExtraBold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+/*BEGIN OPEN SANS EXTRA BOLD ITALIC*/
+@font-face{
+    font-family: 'Open Sans';
+    src: url(../fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf);
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*BEGIN COOKIE*/
+@font-face{
+    font-family: 'Cookie';
+    src: url(../fonts/Cookie/Cookie-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*BEGIN GERMANIA ONE*/
+@font-face{
+    font-family: 'Germania One';
+    src: url(../fonts/Germania_One/GermaniaOne-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*BEGIN LOBSTER*/
+@font-face{
+    font-family: 'Lobster';
+    src: url(../fonts/Lobster/Lobster-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*BEGIN PACIFICO*/
+@font-face{
+    font-family: 'Pacifico';
+    src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*BEGIN RIGHTEOUS*/
+@font-face{
+    font-family: 'Righteous';
+    src: url(../fonts/Righteous/Righteous-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*BEGIN TEKO*/
+@font-face{
+    font-family: 'Teko';
+    src: url(../fonts/Teko/Teko-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*BEGIN TEKO BOLD*/
+@font-face{
+    font-family: 'Teko';
+    src: url(../fonts/Teko/Teko-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+/*BEGIN TEKO LIGHT*/
+@font-face{
+    font-family: 'Teko';
+    src: url(../fonts/Teko/Teko-Light.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+/*BEGIN TEKO MEDIUM*/
+@font-face{
+    font-family: 'Teko';
+    src: url(../fonts/Teko/Teko-Medium.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+/*BEGIN TEKO SEMI BOLD*/
+@font-face{
+    font-family: 'Teko';
+    src: url(../fonts/Teko/Teko-SemiBold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
