@@ -1,19 +1,73 @@
 /* CSS Document */
 /*day la phan cho Homepage*/
+
+	.body-homepage-l3d{
+		/*background-color:rgba(214,223,204,1.00);*/
+		/*background-color:black;*/
+	}
+	
 	/*Day la css cho thanh Navbar*/
 	
-	/*-Tao mau Xanh cho thanh navbar*/
-	.navbar.navbar-default.nav-homepage-l3d{
-		background-color:green;
-	}
-	/*Het mau Xanh cho navbar*/
+		/*-Tao mau Xanh cho thanh navbar*/
+		.navbar.navbar-default.nav-homepage-l3d{
+			background-color:rgba(89,146,89,1.00);
+			font-size:2rem;
+			border-radius:0px;
+		}
+		/*Het mau Xanh cho navbar*/
+		
+		/*-Chu mau trang cho noi dung trong Menu*/
+		.container-fluid .nav>li>a{
+			color:white;
+			margin-right:30px;
+			margin-left:30px;	
+		}
+		.navbar-header .navbar-brand{
+			color:white;
+		}
+		/*Het Chu mau trang cho noi dung trong Menu*/
+		
+		.navbar .container-fluid{
+			display:flex;
+			justify-content:center;
+		}
+		
+		
 	
-	/*-Chu mau trang cho noi dung trong Menu*/
-	.container-fluid .nav>li>a{
-		color:white;	
-	}
-	.navbar-header .navbar-brand{
-		color:white;
-	}
-	/*Het Chu mau trang cho noi dung trong Menu*/
+		
+		.row.section1-homepage-l3d{
+			
+			margin-top:20px;
+			padding:100px;
+			background:linear-gradient(white 60%,rgba(95,94,94,1.00));	
+		}
+		
+		.row.section2-homepage-l3d{
+			margin-bottom:20px;
+			
+			padding:100px;
+			background:white;	
+		}
+		
+		.row.section3-homepage-l3d{
 	
+			margin-top:20px;
+			padding:100px;
+			background:linear-gradient(rgba(95,94,94,1.00),white 60%);	
+		}
+	
+	
+		
+		.row.partner-homepage-l3d{
+			
+			display:flex;
+			justify-content:space-between;
+		}
+	/*Day la css cho footer*/
+		.jumbotron.footer-homepage-l3d{
+			padding:20px;
+			margin-top:20px;
+			margin-bottom:0px;
+			background-color:rgba(44, 62, 80,1.0);
+			color:white;
+		}
