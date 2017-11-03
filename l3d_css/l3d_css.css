@@ -1,0 +1,19 @@
+/* CSS Document */
+/*day la phan cho Homepage*/
+	/*Day la css cho thanh Navbar*/
+	
+	/*-Tao mau Xanh cho thanh navbar*/
+	.navbar.navbar-default.nav-homepage-l3d{
+		background-color:green;
+	}
+	/*Het mau Xanh cho navbar*/
+	
+	/*-Chu mau trang cho noi dung trong Menu*/
+	.container-fluid .nav>li>a{
+		color:white;	
+	}
+	.navbar-header .navbar-brand{
+		color:white;
+	}
+	/*Het Chu mau trang cho noi dung trong Menu*/
+	
