@@ -71,3 +71,13 @@
 			background-color:rgba(44, 62, 80,1.0);
 			color:white;
 		}
+	/*Day la css cho button*/
+		.btn {
+    border: thin; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 25px 35px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+	font-size: 20px;
+}
+	.info {background-color: #33CC00;} /* Blue */
+	.info:hover {background: #390;}
