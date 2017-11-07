@@ -11,7 +11,7 @@
 		/*-Tao mau Xanh cho thanh navbar*/
 		.navbar.navbar-default.nav-homepage-l3d{
 			background-color:rgba(89,146,89,1.00);
-			font-size:2rem;
+			font-size:1.2em;
 			border-radius:0px;
 		}
 		/*Het mau Xanh cho navbar*/
@@ -58,8 +58,7 @@
 	
 	
 		
-		.row.partner-homepage-l3d{
-			
+		.row.partner-homepage-l3d{			
 			display:flex;
 			justify-content:space-between;
 		}
