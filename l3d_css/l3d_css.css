@@ -76,6 +76,11 @@
 			display:flex;
 			justify-content:space-between;
 		}
+		.img-responsive.partner-homepage-l3d{
+			margin-left:5rem;	
+			margin-right:5rem;		 
+		}
+		
 	/*Day la css cho footer*/
 		.jumbotron.footer-homepage-l3d{
 			padding:1.25rem;
