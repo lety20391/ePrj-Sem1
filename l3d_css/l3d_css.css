@@ -47,12 +47,18 @@
 			padding:6.25rem;
 			background:linear-gradient(white 60%,rgba(95,94,94,1.00));	
 		}
+		.row.section1-homepage-l3d>div>p{
+			font-size:1.25rem;
+		}
 		
 		.row.section2-homepage-l3d{
 			margin-bottom:1.25rem;
 			
 			padding:6.25rem;
 			background:white;	
+		}
+		.row.section2-homepage-l3d>div>p{
+			font-size:1.25rem;
 		}
 		
 		.row.section3-homepage-l3d{
@@ -61,7 +67,9 @@
 			padding:6.25rem;
 			background:linear-gradient(rgba(95,94,94,1.00),white 60%);	
 		}
-	
+		.row.section3-homepage-l3d>div>p{
+			font-size:1.25rem;	
+		}
 	
 		
 		.row.partner-homepage-l3d{			
