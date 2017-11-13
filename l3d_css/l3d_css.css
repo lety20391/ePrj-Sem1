@@ -80,6 +80,10 @@
 			margin-left:5rem;	
 			margin-right:5rem;		 
 		}
+	/*Day la css cho partner */
+		.multi-item-carousel .carousel-inner .item>div>img{
+			padding:2.5rem;	
+		}
 		
 	/*Day la css cho footer*/
 		.jumbotron.footer-homepage-l3d{
