@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+    <head>
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <title>Page not found - Grand Cereals Limited</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v5.4.2 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="noindex,follow"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="object" />
+<meta property="og:title" content="Page not found - Grand Cereals Limited" />
+<meta property="og:site_name" content="Grand Cereals Limited" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Page not found - Grand Cereals Limited" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/grandcereals.com\/","name":"Grand Cereals Limited","potentialAction":{"@type":"SearchAction","target":"http:\/\/grandcereals.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Grand Cereals Limited &raquo; Feed" href="http://grandcereals.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Grand Cereals Limited &raquo; Comments Feed" href="http://grandcereals.com/comments/feed/" />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v6.2.3 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+		var disableStr = 'ga-disable-UA-102423772-2';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-102423772-2', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('require', 'displayfeatures');
+	__gaTracker('require', 'linkid', 'linkid.js');
+	__gaTracker('send','pageview','/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer);
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/grandcereals.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.3"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='http://grandcereals.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.9' type='text/css' media='all' />
+<link rel='stylesheet' id='essential-grid-plugin-settings-css'  href='http://grandcereals.com/wp-content/plugins/essential-grid/public/assets/css/settings.css?ver=2.1.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tp-open-sans-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800&#038;ver=4.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='tp-raleway-css'  href='http://fonts.googleapis.com/css?family=Raleway%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900&#038;ver=4.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='tp-droid-serif-css'  href='http://fonts.googleapis.com/css?family=Droid+Serif%3A400%2C700&#038;ver=4.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='popup-maker-site-css'  href='http://grandcereals.com/wp-content/plugins/popup-maker/assets/css/site.min.css?ver=1.6.6' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='http://grandcereals.com/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.2.6' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+</style>
+<link rel='stylesheet' id='woocommerce-layout-css'  href='//grandcereals.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=3.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='//grandcereals.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=3.1.2' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='//grandcereals.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=3.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='http://grandcereals.com/wp-content/themes/organicfood/css/bootstrap.min.css?ver=3.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='preset-css'  href='http://grandcereals.com/wp-content/themes/organicfood/css/presets/preset1.css?ver=4.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://grandcereals.com/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css?ver=4.12.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-ionicons-css'  href='http://grandcereals.com/wp-content/themes/organicfood/css/ionicons.min.css?ver=1.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='organicfood-css'  href='http://grandcereals.com/wp-content/themes/organicfood/css/woocommerce.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='fonts-css'  href='http://grandcereals.com/wp-content/themes/organicfood/css/fonts.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='style.min-css'  href='http://grandcereals.com/wp-content/themes/organicfood/css/style.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='style-rtl-css'  href='http://grandcereals.com/wp-content/themes/organicfood/style-rtl.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='shortcodes-css'  href='http://grandcereals.com/wp-content/themes/organicfood/framework/shortcodes/shortcodes.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='uikit.gradient.min-css'  href='http://grandcereals.com/wp-content/themes/organicfood/css/uikit.gradient.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='uikit.almost-flat.min-css'  href='http://grandcereals.com/wp-content/themes/organicfood/css/uikit.almost-flat.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='uikit.min-css'  href='http://grandcereals.com/wp-content/themes/organicfood/css/uikit.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='http://grandcereals.com/wp-content/themes/organicfood/style.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp_custom_style-css'  href='http://grandcereals.com/wp-content/themes/organicfood/css/wp_custom_style.css?ver=4.8.3' type='text/css' media='all' />
+<style id='wp_custom_style-inline-css' type='text/css'>
+p .cs-decs {
+ display:none;
+}@font-face {
+            font-family: ;
+            src: url(http://grandcereals.com/wp-content/themes/organicfood/fonts/.eot);
+            src: url(http://grandcereals.com/wp-content/themes/organicfood/fonts/.eot?#iefix) format('embedded-opentype'),
+            url(http://grandcereals.com/wp-content/themes/organicfood/fonts/.woff) format('woff'),
+            url(http://grandcereals.com/wp-content/themes/organicfood/fonts/.ttf) format('truetype'),
+            url(http://grandcereals.com/wp-content/themes/organicfood/fonts/.svg#) format('svg');
+            font-weight: normal;
+            font-style: normal;
+            }
+            { font-family:}
+            { font-family:Select Font}
+</style>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","is_debug_mode":"false","download_extensions":"doc,exe,js,pdf,ppt,tgz,zip,xls","inbound_paths":"","home_url":"http:\/\/grandcereals.com","track_download_as":"event","internal_label":"int","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://grandcereals.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js?ver=6.2.3'></script>
+<script type='text/javascript' src='http://grandcereals.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://grandcereals.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://grandcereals.com/wp-content/plugins/essential-grid/public/assets/js/lightbox.js?ver=2.1.0.2'></script>
+<script type='text/javascript' src='http://grandcereals.com/wp-content/plugins/essential-grid/public/assets/js/jquery.themepunch.tools.min.js?ver=2.1.0.2'></script>
+<script type='text/javascript' src='http://grandcereals.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.2.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/blog\/wp-content\/uploads\/2014\/10\/Cereal-field.jpg?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/grandcereals.com","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//grandcereals.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='http://grandcereals.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=4.12.1'></script>
+<script type='text/javascript' src='http://grandcereals.com/wp-content/themes/organicfood/js/bootstrap.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='http://grandcereals.com/wp-content/themes/organicfood/js/jquery_cookie.min.js?ver=4.8.3'></script>
+<script type='text/javascript' src='http://grandcereals.com/wp-content/themes/organicfood/js/jsapi.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://grandcereals.com/wp-content/themes/organicfood/framework/shortcodes/shortcodes.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://grandcereals.com/wp-content/themes/organicfood/js/uikit.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://grandcereals.com/wp-content/themes/organicfood/js/exp.parallax.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://grandcereals.com/wp-content/themes/organicfood/js/main.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://grandcereals.com/wp-content/themes/organicfood/framework/widgets/exp-cart-widgets.js?ver=4.8.3'></script>
+<link rel='https://api.w.org/' href='http://grandcereals.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://grandcereals.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://grandcereals.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.8.3" />
+<meta name="generator" content="WooCommerce 3.1.2" />
+		<script type="text/javascript">
+			var ajaxRevslider;
+			
+			jQuery(document).ready(function() {
+				// CUSTOM AJAX CONTENT LOADING FUNCTION
+				ajaxRevslider = function(obj) {
+				
+					// obj.type : Post Type
+					// obj.id : ID of Content to Load
+					// obj.aspectratio : The Aspect Ratio of the Container / Media
+					// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
+					
+					var content = "";
+
+					data = {};
+					
+					data.action = 'revslider_ajax_call_front';
+					data.client_action = 'get_slider_html';
+					data.token = 'd03a85fa1f';
+					data.type = obj.type;
+					data.id = obj.id;
+					data.aspectratio = obj.aspectratio;
+					
+					// SYNC AJAX REQUEST
+					jQuery.ajax({
+						type:"post",
+						url:"http://grandcereals.com/wp-admin/admin-ajax.php",
+						dataType: 'json',
+						data:data,
+						async:false,
+						success: function(ret, textStatus, XMLHttpRequest) {
+							if(ret.success == true)
+								content = ret.data;								
+						},
+						error: function(e) {
+							console.log(e);
+						}
+					});
+					
+					 // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
+					 return content;						 
+				};
+				
+				// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
+				var ajaxRemoveRevslider = function(obj) {
+					return jQuery(obj.selector+" .rev_slider").revkill();
+				};
+
+				// EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION
+				var extendessential = setInterval(function() {
+					if (jQuery.fn.tpessential != undefined) {
+						clearInterval(extendessential);
+						if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined') {
+							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});   
+							// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
+							// func: the Function Name which is Called once the Item with the Post Type has been clicked
+							// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
+							// openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)
+						}
+					}
+				},30);
+			});
+		</script>
+		<link type="image/x-icon" href="http://grandcereals.com/wp-content/uploads/2016/09/16.png" rel="shortcut icon">	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://grandcereals.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://grandcereals.com/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.2.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+		<style type="text/css" id="wp-custom-css">
+			/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+p .cs-decs {
+ display: none;
+}		</style>
+	<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>	<style id="pum-styles" type="text/css" media="all">
+	/* Popup Google Fonts */
+@import url('//fonts.googleapis.com/css?family=Acme|Montserrat');
+
+/* Popup Theme 3312: Framed Border */
+.pum-theme-3312, .pum-theme-framed-border { background-color: rgba( 255, 255, 255, 0.50 ) } 
+.pum-theme-3312 .pum-container, .pum-theme-framed-border .pum-container { padding: 18px; border-radius: 0px; border: 20px outset #dd3333; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.97 ) inset; background-color: rgba( 255, 251, 239, 1.00 ) } 
+.pum-theme-3312 .pum-title, .pum-theme-framed-border .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-size: 32px; line-height: 36px } 
+.pum-theme-3312 .pum-content, .pum-theme-framed-border .pum-content { color: #2d2d2d; font-family: inherit } 
+.pum-theme-3312 .pum-content + .pum-close, .pum-theme-framed-border .pum-content + .pum-close { height: 20px; width: 20px; left: auto; right: -20px; bottom: auto; top: -20px; padding: 0px; color: #ffffff; font-family: Acme; font-size: 20px; line-height: 20px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 0.55 ) } 
+
+/* Popup Theme 3311: Cutting Edge */
+.pum-theme-3311, .pum-theme-cutting-edge { background-color: rgba( 0, 0, 0, 0.50 ) } 
+.pum-theme-3311 .pum-container, .pum-theme-cutting-edge .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 0px 10px 25px 0px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 30, 115, 190, 1.00 ) } 
+.pum-theme-3311 .pum-title, .pum-theme-cutting-edge .pum-title { color: #ffffff; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Sans-Serif; font-size: 26px; line-height: 28px } 
+.pum-theme-3311 .pum-content, .pum-theme-cutting-edge .pum-content { color: #ffffff; font-family: inherit } 
+.pum-theme-3311 .pum-content + .pum-close, .pum-theme-cutting-edge .pum-content + .pum-close { height: 24px; width: 24px; left: auto; right: 0px; bottom: auto; top: 0px; padding: 0px; color: #1e73be; font-family: inherit; font-size: 32px; line-height: 24px; border: 1px none #ffffff; border-radius: 0px; box-shadow: -1px 1px 1px 0px rgba( 2, 2, 2, 0.10 ); text-shadow: -1px 1px 1px rgba( 0, 0, 0, 0.10 ); background-color: rgba( 238, 238, 34, 1.00 ) } 
+
+/* Popup Theme 3310: Hello Box */
+.pum-theme-3310, .pum-theme-hello-box { background-color: rgba( 0, 0, 0, 0.75 ) } 
+.pum-theme-3310 .pum-container, .pum-theme-hello-box .pum-container { padding: 30px; border-radius: 80px; border: 14px solid #81d742; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-3310 .pum-title, .pum-theme-hello-box .pum-title { color: #2d2d2d; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Montserrat; font-size: 32px; line-height: 36px } 
+.pum-theme-3310 .pum-content, .pum-theme-hello-box .pum-content { color: #2d2d2d; font-family: inherit } 
+.pum-theme-3310 .pum-content + .pum-close, .pum-theme-hello-box .pum-content + .pum-close { height: auto; width: auto; left: auto; right: -30px; bottom: auto; top: -30px; padding: 0px; color: #2d2d2d; font-family: inherit; font-size: 32px; line-height: 28px; border: 1px none #ffffff; border-radius: 28px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+
+/* Popup Theme 3309: Enterprise Blue */
+.pum-theme-3309, .pum-theme-enterprise-blue { background-color: rgba( 0, 0, 0, 0.70 ) } 
+.pum-theme-3309 .pum-container, .pum-theme-enterprise-blue .pum-container { padding: 28px; border-radius: 5px; border: 1px none #000000; box-shadow: 0px 10px 25px 4px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-3309 .pum-title, .pum-theme-enterprise-blue .pum-title { color: #315b7c; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-size: 34px; line-height: 36px } 
+.pum-theme-3309 .pum-content, .pum-theme-enterprise-blue .pum-content { color: #2d2d2d; font-family: inherit } 
+.pum-theme-3309 .pum-content + .pum-close, .pum-theme-enterprise-blue .pum-content + .pum-close { height: 28px; width: 28px; left: auto; right: 8px; bottom: auto; top: 8px; padding: 4px; color: #ffffff; font-family: inherit; font-size: 20px; line-height: 20px; border: 1px none #ffffff; border-radius: 42px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 49, 91, 124, 1.00 ) } 
+
+/* Popup Theme 3308: Light Box */
+.pum-theme-3308, .pum-theme-lightbox { background-color: rgba( 0, 0, 0, 0.60 ) } 
+.pum-theme-3308 .pum-container, .pum-theme-lightbox .pum-container { padding: 18px; border-radius: 3px; border: 8px solid #000000; box-shadow: 0px 0px 30px 0px rgba( 2, 2, 2, 1.00 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-3308 .pum-title, .pum-theme-lightbox .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-size: 32px; line-height: 36px } 
+.pum-theme-3308 .pum-content, .pum-theme-lightbox .pum-content { color: #000000; font-family: inherit } 
+.pum-theme-3308 .pum-content + .pum-close, .pum-theme-lightbox .pum-content + .pum-close { height: 30px; width: 30px; left: auto; right: -24px; bottom: auto; top: -24px; padding: 0px; color: #ffffff; font-family: inherit; font-size: 24px; line-height: 26px; border: 2px solid #ffffff; border-radius: 30px; box-shadow: 0px 0px 15px 1px rgba( 2, 2, 2, 0.75 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 1.00 ) } 
+
+/* Popup Theme 3307: Default Theme */
+.pum-theme-3307, .pum-theme-default-theme { background-color: rgba( 0, 0, 0, 0.50 ) } 
+.pum-theme-3307 .pum-container, .pum-theme-default-theme .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 249, 249, 249, 1.00 ) } 
+.pum-theme-3307 .pum-title, .pum-theme-default-theme .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-size: 32px; line-height: 36px } 
+.pum-theme-3307 .pum-content, .pum-theme-default-theme .pum-content { color: #8c8c8c; font-family: inherit } 
+.pum-theme-3307 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close { height: auto; width: auto; left: auto; right: 0px; bottom: auto; top: 0px; padding: 8px; color: #ffffff; font-family: inherit; font-size: 12px; line-height: 14px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 1.00 ) } 
+
+
+	
+		</style>    </head>
+        <body class="error404 csbody wide wpb-js-composer js-comp-ver-4.12.1 vc_responsive">
+        <div id="wrapper">
+            <div class="header-wrapper">
+            <div class="header header-v1">
+    
+        <header id="cshero-header">
+                <div class="menubar menu-toggle-class" data-scroll-toggle-class="menu-toggle-class menubar-fixed-top">
+            <div class="menubar-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <button class="btn-menubar">Menu</button>
+                            <a class="menubar-brand" href="http://grandcereals.com">
+                                <img src="http://grandcereals.com/wp-content/uploads/2017/01/trans-logo-1.png" alt="Grand Cereals Limited"
+                                     style="max-height: " class="normal-logo logo-v1"/>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                            <div class="menu-list"><ul id="nav" class="menu-list-right"><li id="menu-item-2516" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2516"><a href="http://grandcereals.com/">Home</a></li>
+<li id="menu-item-2499" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2499"><a href="http://grandcereals.com/about-us/">About Us</a>
+<ul  class="sub-menu">
+	<li id="menu-item-2501" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2501"><a href="http://grandcereals.com/vision-mission-strategy/">Vision / Mission / Strategy</a></li>
+	<li id="menu-item-2661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2661"><a href="http://grandcereals.com/board-of-directors/">Board of Directors</a></li>
+	<li id="menu-item-2503" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2503"><a href="http://grandcereals.com/leadership/">Leadership</a></li>
+</ul>
+</li>
+<li id="menu-item-2668" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2668"><a href="#">Products</a>
+<ul  class="sub-menu">
+	<li id="menu-item-3177" class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category menu-item-has-children menu-item-3177"><a href="http://grandcereals.com/portfolio_category/edible/">Edible</a>
+	<ul  class="sub-menu">
+		<li id="menu-item-3179" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-3179"><a href="http://grandcereals.com/portfolio/golden-medal-groundnut-oil/">Golden Medal Groundnut Oil</a></li>
+		<li id="menu-item-3180" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-3180"><a href="http://grandcereals.com/portfolio/desire-natural-palm-oil/">Desire Natural Palm Oil</a></li>
+		<li id="menu-item-3181" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-3181"><a href="http://grandcereals.com/portfolio/grand-pure-groundnut-oil/">Grand Pure Groundnut Oil</a></li>
+		<li id="menu-item-3182" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-3182"><a href="http://grandcereals.com/portfolio/grand-pure-soya-oil/">Grand Pure Soya Oil</a></li>
+		<li id="menu-item-3183" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-3183"><a href="http://grandcereals.com/portfolio/grand-maize-brabusco/">Grand Maize Brabusco</a></li>
+		<li id="menu-item-3184" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-3184"><a href="http://grandcereals.com/portfolio/grand-soya-flour/">Grand Soya Flour</a></li>
+		<li id="menu-item-3185" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-3185"><a href="http://grandcereals.com/portfolio/nourishing-cereal-meal/">Richfil</a></li>
+		<li id="menu-item-3186" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-3186"><a href="http://grandcereals.com/portfolio/grandvita-protein-cereal-meal/">Grandvita Protein Cereal Meal</a></li>
+		<li id="menu-item-3420" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-3420"><a href="http://grandcereals.com/portfolio/grand-cornflakes/">Grand Cornflakes</a></li>
+	</ul>
+</li>
+	<li id="menu-item-3178" class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category menu-item-has-children menu-item-3178"><a href="http://grandcereals.com/portfolio_category/animal-feeds/">Animal Feeds</a>
+	<ul  class="sub-menu">
+		<li id="menu-item-3063" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3063"><a href="#">Vital Poultry Feed</a>
+		<ul  class="sub-menu">
+			<li id="menu-item-3303" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-3303"><a href="http://grandcereals.com/portfolio/eggmaxx-crumbler-layer/">EggMaxx Crumbler Layer</a></li>
+		</ul>
+</li>
+		<li id="menu-item-3187" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-3187"><a href="http://grandcereals.com/portfolio/vital-feed-fish/">Vital Feed Fish</a></li>
+		<li id="menu-item-3188" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-3188"><a href="http://grandcereals.com/portfolio/vital-feed-ruminant/">Ruminant Feed</a></li>
+		<li id="menu-item-3189" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-3189"><a href="http://grandcereals.com/portfolio/vital-feed-horse/">Horse Feed</a></li>
+		<li id="menu-item-3190" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-3190"><a href="http://grandcereals.com/portfolio/binggo-dog-food/">Binggo Dog Food</a></li>
+		<li id="menu-item-3191" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-3191"><a href="http://grandcereals.com/portfolio/vital-feed-2/">Vital Feed</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-2510" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2510"><a href="#">Distributors</a>
+<ul  class="sub-menu">
+	<li id="menu-item-2664" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2664"><a href="http://grandcereals.com/oil-distributors/">Oil Distributors</a></li>
+	<li id="menu-item-2667" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2667"><a href="http://grandcereals.com/animal-feeds-distributors/">Animal &#038; Feeds Distributors</a></li>
+	<li id="menu-item-3115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3115"><a href="http://grandcereals.com/binggo-dog-food-distributors/">Binggo Dog Food Distributors</a></li>
+</ul>
+</li>
+<li id="menu-item-3451" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3451"><a href="#">Career</a></li>
+<li id="menu-item-2511" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2511"><a href="http://grandcereals.com/blog/">Blog</a></li>
+<li id="menu-item-2512" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2512"><a href="http://grandcereals.com/contact/">Contact Us</a></li>
+<li id="menu-item-2725" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2725"><a target="_blank" href="http://www.konga.com/grand-cereals-ltd">Buy Online</a></li>
+</ul></div>                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>            </div><div class="container" id="error-page">
+    <div>
+        <h1 class="error-code">404</h1>
+        <p class="error-message">
+                Article not found<br>
+                Go Back<a title="Home" href="http://grandcereals.com/"><i class="fa fa-home"></i>Home</a>
+        </p>
+    </div>
+</div>
+<!--WPFC_FOOTER_START-->    <footer id="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="footer-top">
+                    <div class='footer-top-1 col-xs-12 col-sm-6 col-md-3 col-lg-3'><div id="text-7" class="footer-widget-col widget_text">			<div class="textwidget"><div class="content">
+<p><img alt="" src="http://grandcereals.com/wp-content/uploads/2017/01/trans-logo-1.png" style="margin-bottom:10px;"> <br/> We are an integrated foods company whose primary activity is the creation of superior value from local raw materials...</p>
+</div></div>
+		<div style="clear:both;"></div></div></div><div class='footer-top-2 col-xs-12 col-sm-6 col-md-3 col-lg-3'><div id="nav_menu-6" class="footer-widget-col widget_nav_menu"><h2 class="wg-title">Our Brand</h2><div class="menu-brands-footer-container"><ul id="menu-brands-footer" class="menu"><li id="menu-item-3163" class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category menu-item-3163"><a href="http://grandcereals.com/portfolio_category/edible/">Edible</a></li>
+<li id="menu-item-3164" class="menu-item menu-item-type-taxonomy menu-item-object-portfolio_category menu-item-3164"><a href="http://grandcereals.com/portfolio_category/animal-feeds/">Animal Feeds</a></li>
+</ul></div><div style="clear:both;"></div></div></div><div class='footer-top-3 col-xs-12 col-sm-6 col-md-3 col-lg-3'><div id="nav_menu-5" class="footer-widget-col widget_nav_menu"><h2 class="wg-title">Other Links</h2><div class="menu-menu-footer-container"><ul id="menu-menu-footer" class="menu"><li id="menu-item-3049" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3049"><a href="http://grandcereals.com/naic-insurance/">Naic Insurance</a></li>
+<li id="menu-item-3050" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3050"><a href="http://grandcereals.com/faq/">FAQ</a></li>
+<li id="menu-item-3051" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3051"><a href="http://grandcereals.com/?page_id=2689">Career</a></li>
+</ul></div><div style="clear:both;"></div></div></div><div class='footer-top-4 col-xs-12 col-sm-6 col-md-3 col-lg-3'><div id="text-5" class="footer-widget-col widget_text"><h2 class="wg-title">Contact</h2>			<div class="textwidget"><div class="content">
+<p><i class="fa fa-envelope-o" style="">&nbsp;</i>&nbsp; info@grandcereals.com</p>
+
+<p><i class="fa fa-phone " style="">&nbsp;</i>&nbsp; 070-00000999</p>
+
+<p><i class="fa fa-building" style="">&nbsp;</i>&nbsp; Km 17, Zawan Roundabout, Jos, Plateau State.</p>
+</div></div>
+		<div style="clear:both;"></div></div><div id="cs_social_widget-5" class=" footer-widget-col widget_cs_social_widget">        <ul class='cs-social'>
+                            <li>
+                    <a target="_blank" data-uk-tooltip="{pos:'top'}" title="Twitter" href="https://twitter.com/GrandCereals">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                                <li>
+                    <a target="_blank" data-uk-tooltip="{pos:'top'}" title="Google Plus" href="https://plus.google.com/117338353303086478174/">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                </li>
+                                <li>
+                    <a target="_blank" data-uk-tooltip="{pos:'top'}" title="Vita Feed Facebook" href="https://www.facebook.com/VitalFeeds/">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                                <li>
+                    <a target="_blank" data-uk-tooltip="{pos:'top'}" title="GPSO Facebook" href="https://www.facebook.com/GrandPureSoyaOil/">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                                <li>
+                    <a target="_blank" data-uk-tooltip="{pos:'top'}" title="Binggo Facebook" href="https://www.facebook.com/binggoDogFood/">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                        </ul>
+        <div style="clear:both;"></div></div></div>                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<div id="pum-3329" class="pum pum-overlay pum-theme-3307 pum-theme-default-theme popmake-overlay click_open" data-popmake="{&quot;id&quot;:3329,&quot;slug&quot;:&quot;64-app-pop&quot;,&quot;theme_id&quot;:3307,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;&quot;,&quot;responsive_max_width&quot;:&quot;&quot;,&quot;custom_width&quot;:&quot;640&quot;,&quot;custom_height&quot;:&quot;380&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;location&quot;:&quot;center top&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;overlay_zindex&quot;:&quot;1999999998&quot;,&quot;zindex&quot;:&quot;1999999999&quot;,&quot;responsive_min_width_unit&quot;:&quot;px&quot;,&quot;responsive_max_width_unit&quot;:&quot;px&quot;,&quot;custom_width_unit&quot;:&quot;px&quot;,&quot;custom_height_unit&quot;:&quot;px&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;},&quot;click_open&quot;:{&quot;extra_selectors&quot;:&quot;&quot;}}}" role="dialog" aria-hidden="true" >
+
+	<div id="popmake-3329" class="pum-container popmake theme-3307 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+				
+
+		
+
+				<div class="pum-content popmake-content">
+			<div role="form" class="wpcf7" id="wpcf7-f3326-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/blog/wp-content/uploads/2014/10/Cereal-field.jpg#wpcf7-f3326-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="3326" />
+<input type="hidden" name="_wpcf7_version" value="4.9" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f3326-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="0" />
+</div>
+<div class="form-group ">
+<div class="col-md-12 col-sm-12 col-xs-12">
+                            <label for="">First Name <span class="required">*</span></label><br />
+                            <span class="wpcf7-form-control-wrap fname"><input type="text" name="fname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="First Name" /></span>
+                        </div>
+<div class="col-md-12 col-sm-12 col-xs-12">
+                            <label for="">Last Name <span class="required">*</span></label><br />
+                            <span class="wpcf7-form-control-wrap lname"><input type="text" name="lname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Last Name" /></span>
+                        </div>
+</p></div>
+<div class="form-group ">
+<div class="col-md-12 col-sm-12 col-xs-12">
+                            <label for="">Email <span class="required">*</span></label><br />
+                            <span class="wpcf7-form-control-wrap email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" /></span>
+                        </div>
+<div class="col-md-12 col-sm-12 col-xs-12">
+                            <label for="">Phone Number <span class="required">*</span></label><br />
+                            <span class="wpcf7-form-control-wrap phone"><input type="tel" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form-control" aria-required="true" aria-invalid="false" /></span>
+                        </div>
+</p></div>
+<div class="wpcf7-form-control-wrap"><div data-sitekey="6LcyexoUAAAAAMFU2zyeGym6rbUe4pgD-SmVe0fU" class="wpcf7-form-control g-recaptcha wpcf7-recaptcha"></div>
+<noscript>
+	<div style="width: 302px; height: 422px;">
+		<div style="width: 302px; height: 422px; position: relative;">
+			<div style="width: 302px; height: 422px; position: absolute;">
+				<iframe src="https://www.google.com/recaptcha/api/fallback?k=6LcyexoUAAAAAMFU2zyeGym6rbUe4pgD-SmVe0fU" frameborder="0" scrolling="no" style="width: 302px; height:422px; border-style: none;">
+				</iframe>
+			</div>
+			<div style="width: 300px; height: 60px; border-style: none; bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
+				<textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;">
+				</textarea>
+			</div>
+		</div>
+	</div>
+</noscript>
+</div>
+<div class="form-group padd-r-15" >
+                        <input type="submit" value="Submit" class="wpcf7-form-control wpcf7-submit btn-submit" />
+                    </div>
+<input type='hidden' class='wpcf7-pum' value='{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}' /><div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			CLOSE            </button>
+		
+	</div>
+
+</div>
+<div id="pum-3313" class="pum pum-overlay pum-theme-3307 pum-theme-default-theme popmake-overlay click_open" data-popmake="{&quot;id&quot;:3313,&quot;slug&quot;:&quot;32-app-pop&quot;,&quot;theme_id&quot;:3307,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;&quot;,&quot;responsive_max_width&quot;:&quot;&quot;,&quot;custom_width&quot;:&quot;640&quot;,&quot;custom_height&quot;:&quot;380&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;location&quot;:&quot;center top&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;overlay_zindex&quot;:&quot;1999999998&quot;,&quot;zindex&quot;:&quot;1999999999&quot;,&quot;responsive_min_width_unit&quot;:&quot;px&quot;,&quot;responsive_max_width_unit&quot;:&quot;px&quot;,&quot;custom_width_unit&quot;:&quot;px&quot;,&quot;custom_height_unit&quot;:&quot;px&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;},&quot;click_open&quot;:{&quot;extra_selectors&quot;:&quot;&quot;}}}" role="dialog" aria-hidden="true" >
+
+	<div id="popmake-3313" class="pum-container popmake theme-3307 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+				
+
+		
+
+				<div class="pum-content popmake-content">
+			<div role="form" class="wpcf7" id="wpcf7-f3195-o2" lang="en-US" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/blog/wp-content/uploads/2014/10/Cereal-field.jpg#wpcf7-f3195-o2" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="3195" />
+<input type="hidden" name="_wpcf7_version" value="4.9" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f3195-o2" />
+<input type="hidden" name="_wpcf7_container_post" value="0" />
+</div>
+<div class="form-group ">
+<div class="col-md-12 col-sm-12 col-xs-12">
+                            <label for="">First Name <span class="required">*</span></label><br />
+                            <span class="wpcf7-form-control-wrap fname"><input type="text" name="fname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="First Name" /></span>
+                        </div>
+<div class="col-md-12 col-sm-12 col-xs-12">
+                            <label for="">Last Name <span class="required">*</span></label><br />
+                            <span class="wpcf7-form-control-wrap lname"><input type="text" name="lname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Last Name" /></span>
+                        </div>
+</p></div>
+<div class="form-group ">
+<div class="col-md-12 col-sm-12 col-xs-12">
+                            <label for="">Email <span class="required">*</span></label><br />
+                            <span class="wpcf7-form-control-wrap email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" /></span>
+                        </div>
+<div class="col-md-12 col-sm-12 col-xs-12">
+                            <label for="">Phone Number <span class="required">*</span></label><br />
+                            <span class="wpcf7-form-control-wrap phone"><input type="tel" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form-control" aria-required="true" aria-invalid="false" /></span>
+                        </div>
+</p></div>
+<div class="wpcf7-form-control-wrap"><div data-sitekey="6LcyexoUAAAAAMFU2zyeGym6rbUe4pgD-SmVe0fU" class="wpcf7-form-control g-recaptcha wpcf7-recaptcha"></div>
+<noscript>
+	<div style="width: 302px; height: 422px;">
+		<div style="width: 302px; height: 422px; position: relative;">
+			<div style="width: 302px; height: 422px; position: absolute;">
+				<iframe src="https://www.google.com/recaptcha/api/fallback?k=6LcyexoUAAAAAMFU2zyeGym6rbUe4pgD-SmVe0fU" frameborder="0" scrolling="no" style="width: 302px; height:422px; border-style: none;">
+				</iframe>
+			</div>
+			<div style="width: 300px; height: 60px; border-style: none; bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
+				<textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;">
+				</textarea>
+			</div>
+		</div>
+	</div>
+</noscript>
+</div>
+<div class="form-group padd-r-15" >
+                        <input type="submit" value="Submit" class="wpcf7-form-control wpcf7-submit btn-submit" />
+                    </div>
+<input type='hidden' class='wpcf7-pum' value='{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}' /><div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			CLOSE            </button>
+		
+	</div>
+
+</div>
+<script type="text/javascript">
+var recaptchaWidgets = [];
+var recaptchaCallback = function() {
+	var forms = document.getElementsByTagName( 'form' );
+	var pattern = /(^|\s)g-recaptcha(\s|$)/;
+
+	for ( var i = 0; i < forms.length; i++ ) {
+		var divs = forms[ i ].getElementsByTagName( 'div' );
+
+		for ( var j = 0; j < divs.length; j++ ) {
+			var sitekey = divs[ j ].getAttribute( 'data-sitekey' );
+
+			if ( divs[ j ].className && divs[ j ].className.match( pattern ) && sitekey ) {
+				var params = {
+					'sitekey': sitekey,
+					'type': divs[ j ].getAttribute( 'data-type' ),
+					'size': divs[ j ].getAttribute( 'data-size' ),
+					'theme': divs[ j ].getAttribute( 'data-theme' ),
+					'badge': divs[ j ].getAttribute( 'data-badge' ),
+					'tabindex': divs[ j ].getAttribute( 'data-tabindex' )
+				};
+
+				var callback = divs[ j ].getAttribute( 'data-callback' );
+
+				if ( callback && 'function' == typeof window[ callback ] ) {
+					params[ 'callback' ] = window[ callback ];
+				}
+
+				var expired_callback = divs[ j ].getAttribute( 'data-expired-callback' );
+
+				if ( expired_callback && 'function' == typeof window[ expired_callback ] ) {
+					params[ 'expired-callback' ] = window[ expired_callback ];
+				}
+
+				var widget_id = grecaptcha.render( divs[ j ], params );
+				recaptchaWidgets.push( widget_id );
+				break;
+			}
+		}
+	}
+};
+
+document.addEventListener( 'wpcf7submit', function( event ) {
+	switch ( event.detail.status ) {
+		case 'spam':
+		case 'mail_sent':
+		case 'mail_failed':
+			for ( var i = 0; i < recaptchaWidgets.length; i++ ) {
+				grecaptcha.reset( recaptchaWidgets[ i ] );
+			}
+	}
+}, false );
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/grandcereals.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+var wpcf7 = {"apiSettings":{"root":"http:\/\/grandcereals.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+var wpcf7 = {"apiSettings":{"root":"http:\/\/grandcereals.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://grandcereals.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.9'></script>
+<script type='text/javascript' src='//grandcereals.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript' src='//grandcereals.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/blog\/wp-content\/uploads\/2014\/10\/Cereal-field.jpg?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//grandcereals.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.1.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/blog\/wp-content\/uploads\/2014\/10\/Cereal-field.jpg?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments_7f99b9cd20b09d293c45b6f668a911dd"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//grandcereals.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='http://grandcereals.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://grandcereals.com/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pum_vars = {"ajaxurl":"http:\/\/grandcereals.com\/wp-admin\/admin-ajax.php","restapi":"http:\/\/grandcereals.com\/wp-json\/pum\/v1","rest_nonce":null,"default_theme":"3307","debug_mode":"","disable_open_tracking":""};
+var pum_debug_vars = {"debug_mode_enabled":"Popup Maker Debug Mode Enabled","debug_started_at":"Debug started at:","debug_more_info":"For more information on how to use this information visit http:\/\/docs.wppopupmaker.com\/?utm_medium=js-debug-info&utm_campaign=ContextualHelp&utm_source=browser-console&utm_content=more-info","global_info":"Global Information","localized_vars":"Localized variables","popups_initializing":"Popups Initializing","popups_initialized":"Popups Initialized","single_popup_label":"Popup: #","theme_id":"Theme ID: ","label_method_call":"Method Call:","label_method_args":"Method Arguments:","label_popup_settings":"Settings","label_triggers":"Triggers","label_cookies":"Cookies","label_delay":"Delay:","label_conditions":"Conditions","label_cookie":"Cookie:","label_settings":"Settings:","label_selector":"Selector:","label_mobile_disabled":"Mobile Disabled:","label_tablet_disabled":"Tablet Disabled:","label_display_settings":"Display Settings:","label_close_settings":"Close Settings:","label_event_before_open":"Event: Before Open","label_event_after_open":"Event: After Open","label_event_open_prevented":"Event: Open Prevented","label_event_setup_close":"Event: Setup Close","label_event_close_prevented":"Event: Close Prevented","label_event_before_close":"Event: Before Close","label_event_after_close":"Event: After Close","label_event_before_reposition":"Event: Before Reposition","label_event_after_reposition":"Event: After Reposition","label_event_checking_condition":"Event: Checking Condition","triggers":{"click_open":{"name":"Click Open","modal_title":"Click Trigger Settings","settings_column":"<strong>Extra Selectors<\/strong>: {{data.extra_selectors}}"},"auto_open":{"name":"Auto Open","modal_title":"Auto Open Settings","settings_column":"<strong>Delay<\/strong>: {{data.delay}}"}},"cookies":{"on_popup_open":{"name":"On Popup Open","modal_title":"On Popup Open Settings"},"on_popup_close":{"name":"On Popup Close","modal_title":"On Popup Close Settings"},"manual":{"name":"Manual JavaScript","modal_title":"Click Trigger Settings"}}};
+var ajaxurl = "http:\/\/grandcereals.com\/wp-admin\/admin-ajax.php";
+var popmake_default_theme = "3307";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://grandcereals.com/wp-content/plugins/popup-maker/assets/js/site.min.js?defer&#038;ver=1.6.6' defer='defer'></script>
+<script type='text/javascript' src='http://grandcereals.com/wp-includes/js/wp-embed.min.js?ver=4.8.3'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?onload=recaptchaCallback&#038;render=explicit&#038;ver=2.0'></script>
+</body>
+</html>
