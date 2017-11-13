@@ -89,6 +89,9 @@
 			background-color:rgba(44, 62, 80,1.0);
 			color:white;
 		}
+<<<<<<< HEAD
+		
+=======
 	/*Day la css cho button*/
 		.btn {
     border: thin; /* Remove borders */
@@ -99,3 +102,4 @@
 }
 	.info {background-color: #33CC00;} /* Blue */
 	.info:hover {background: #390;}
+>>>>>>> 1bd740e4cc3c6082cc51d6d5ac57ad8b5534a266
