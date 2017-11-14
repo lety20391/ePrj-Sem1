@@ -178,7 +178,59 @@ Day la CSS cho query
 			background-color:rgba(39, 174, 96,1.0);
 				
 		}
-		
+/*--------------------
+----------------------
+Day la CSS cho Detail product
+	------------------
+		------------ */
+		.contain-pr-l3d{
+			margin-bottom:2rem;
+			padding-bottom:2rem;	
+		}
+		.prImg-l3d{
+			padding:1rem;	
+		}
+		.prInfo-l3d{
+			padding:1rem;	
+		}
+		.prInfo-l3d .prName{
+			color:rgba(44, 62, 80,1.0);
+			border-bottom:0.25rem solid rgba(44, 62, 80,1.0);
+			font-size:2rem;
+			font-weight:bold;
+			text-transform:capitalize;
+		}
+		.prInfo-l3d .prDetail{
+			border-bottom:0.1rem solid rgba(44, 62, 80,1.0);
+		}
+		.prInfo-l3d .prPrice{
+			display:inline;
+			color:green;
+			font-weight:bold;
+			font-size:1rem;	
+		}
+		.prInfo-l3d .prSaleOff{
+			display:inline;
+			margin-left:0.2rem;
+			margin-right:0.2rem;
+			padding:0.2rem;
+			border-radius:0.1rem;
+			background-color:green;
+			font-size:1rem;
+			color:white;	
+		}
+		.prInfo-l3d .prPriceOld{
+			display:inline;
+			margin-left:0.2rem;
+			color:rgba(0,128,0,0.72);
+			font-weight:bold;
+			font-size:1rem;
+			text-decoration:line-through;	
+		}
+		.btn-pr-l3d{
+			margin-top:1rem;
+			display:block;	
+		}
 <<<<<<< HEAD
 		
 =======
