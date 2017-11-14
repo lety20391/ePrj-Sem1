@@ -68,64 +68,50 @@
 			justify-content:center;
 		}
 		
-		.bigSec-homepage-l3d>h2{			
+		.section-homepage-l3d{			
+			background-color:rgba(44, 62, 80,1.0);
 			text-align:center;
+			padding-top:1rem;
+			padding-bottom:0.5rem;
+			margin-top:2rem;
+		}
+		.section-homepage-l3d>p{
+			font-size:2rem;
 			text-transform:uppercase;
 			font-weight:bold;
-			font-size:2rem;
-			color:rgba(39, 174, 96,1.0);
+			color:white;
 		}
 		
-		/*Mau chu cho highlight product*/
-		.highlight-homepage-l3d{
-			color:rgba(211, 84, 0,1.0);
-			font-weight:bold;
+		.hlight-homepage-l3d{
+			background:linear-gradient( rgba(0,0,0,0.00),rgba(0,0,0,0.00)40%, green 40%);
+			margin-left:2rem;
+			margin-top:2rem;	
 		}
-		.hightlight-info-homepage-l3d{
-			color:black;
+		.hlight-homepage-l3d>div.col-sm-8{
+			padding-bottom:6rem;	
 		}
-		
-		.row.section1-homepage-l3d{
-			
-			margin-top:1.25rem;
-			padding:6.25rem;
-			background:linear-gradient(white 60%, #74E868);	
+		.hlight-homepage-l3d>div>img{
+			border-radius:1rem;	
+		}	
+		.hlight-homepage-l3d>div.col-sm-4{
+			padding-top:7rem;	
+		}	
+		.hlight-homepage-l3d .homepage.prName{
+			display:inline;
+			color:white;
+			font-size:1.5rem;
+			font-weight:bold;	
 		}
-		.row.section1-homepage-l3d>div>p{
-			font-size:1.25rem;
+		.hlight-homepage-l3d .prOff{
+			display:inline;
+			color:white;
+			background-color:rgba(241, 196, 15,1.0);
+			padding:0.2rem;	
 		}
-		.row.section1-homepage-l3d>div>img{
-			border-color:rgba(255,253,14,1.00);
-			border-width:medium;
-			border-radius:0.5rem;	
-		}
-		
-		.row.section2-homepage-l3d{
-			margin-bottom:1.25rem;
-			
-			padding:6.25rem;
-			background:white;	
-		}
-		.row.section2-homepage-l3d>div>p{
-			font-size:1.25rem;
+		.hlight-homepage-l3d .prBriefInfo{
+			color:white;				
 		}
 		
-		.row.section3-homepage-l3d{
-	
-			margin-top:1.25rem;
-			padding:6.25rem;
-			background:linear-gradient(#74E868,white 60%);	
-		}
-		.row.section3-homepage-l3d>div>p{
-			font-size:1.25rem;	
-		}
-	
-		
-		
-		.img-responsive.partner-homepage-l3d{
-			margin-left:5rem;	
-			margin-right:5rem;		 
-		}
 	/*Day la css cho partner */
 		.multi-item-carousel .carousel-inner .item>div{
 			padding:4rem;	
