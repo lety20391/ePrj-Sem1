@@ -1,4 +1,13 @@
 /* CSS Document */
+	.left{
+		text-align:left;	
+	}
+	.right{
+		text-align:right;	
+	}
+	.center{
+		text-align:center;	
+	}
 /* Set root font size */
 @media screen and (min-width:992px){
 	html{
@@ -21,14 +30,14 @@
 	.jumb-homepage-l3d{
 		padding:0px;
 		margin:0px;
-		background: radial-gradient(circle, white 75%, rgba(119,224,163,1.00));
+		background: radial-gradient(circle, white 75%, rgba(46, 204, 113,1.0));
 	}
 	
 	/*Day la css cho thanh Navbar*/
 	
 		/*-Tao mau Xanh cho thanh navbar*/
 		.navbar.navbar-default.nav-homepage-l3d{
-			background-color:rgba(89,146,89,1.00);
+			background-color:rgba(4,207,4,1.00);
 			font-size:1rem;
 			border-radius:0rem;
 		}
@@ -59,17 +68,36 @@
 			justify-content:center;
 		}
 		
+		.bigSec-homepage-l3d>h2{			
+			text-align:center;
+			text-transform:uppercase;
+			font-weight:bold;
+			font-size:2rem;
+			color:rgba(39, 174, 96,1.0);
+		}
 		
-	
+		/*Mau chu cho highlight product*/
+		.highlight-homepage-l3d{
+			color:rgba(211, 84, 0,1.0);
+			font-weight:bold;
+		}
+		.hightlight-info-homepage-l3d{
+			color:black;
+		}
 		
 		.row.section1-homepage-l3d{
 			
 			margin-top:1.25rem;
 			padding:6.25rem;
-			background:linear-gradient(white 60%,rgba(95,94,94,1.00));	
+			background:linear-gradient(white 60%, #74E868);	
 		}
 		.row.section1-homepage-l3d>div>p{
 			font-size:1.25rem;
+		}
+		.row.section1-homepage-l3d>div>img{
+			border-color:rgba(255,253,14,1.00);
+			border-width:medium;
+			border-radius:0.5rem;	
 		}
 		
 		.row.section2-homepage-l3d{
@@ -86,17 +114,14 @@
 	
 			margin-top:1.25rem;
 			padding:6.25rem;
-			background:linear-gradient(rgba(95,94,94,1.00),white 60%);	
+			background:linear-gradient(#74E868,white 60%);	
 		}
 		.row.section3-homepage-l3d>div>p{
 			font-size:1.25rem;	
 		}
 	
 		
-		.row.partner-homepage-l3d{			
-			display:flex;
-			justify-content:space-between;
-		}
+		
 		.img-responsive.partner-homepage-l3d{
 			margin-left:5rem;	
 			margin-right:5rem;		 
@@ -124,6 +149,88 @@
 			background-color:rgba(44, 62, 80,1.0);
 			color:white;
 		}
+/*--------------------
+----------------------
+Day la CSS cho query
+	------------------
+		------------ */
+		.section-query-l3d{			
+			background-color:rgba(44, 62, 80,1.0);
+			text-align:center;
+			padding-top:1rem;
+			padding-bottom:0.5rem;			
+		}
+		.section-query-l3d>p{
+			font-size:2rem;
+			text-transform:uppercase;
+			font-weight:bold;
+			color:white;
+		}
+		.question-query-l3d>p{
+			font-size:1.23rem;
+			color:rgba(44, 62, 80,1.0);
+				
+		}
+		.answer-query-l3d>p{
+			padding:0.5rem;
+			font-size:1rem;
+			color:white;
+			background-color:rgba(39, 174, 96,1.0);
+				
+		}
+/*--------------------
+----------------------
+Day la CSS cho Detail product
+	------------------
+		------------ */
+		.contain-pr-l3d{
+			margin-bottom:2rem;
+			padding-bottom:2rem;	
+		}
+		.prImg-l3d{
+			padding:1rem;	
+		}
+		.prInfo-l3d{
+			padding:1rem;	
+		}
+		.prInfo-l3d .prName{
+			color:rgba(44, 62, 80,1.0);
+			border-bottom:0.25rem solid rgba(44, 62, 80,1.0);
+			font-size:2rem;
+			font-weight:bold;
+			text-transform:capitalize;
+		}
+		.prInfo-l3d .prDetail{
+			border-bottom:0.1rem solid rgba(44, 62, 80,1.0);
+		}
+		.prInfo-l3d .prPrice{
+			display:inline;
+			color:green;
+			font-weight:bold;
+			font-size:1rem;	
+		}
+		.prInfo-l3d .prSaleOff{
+			display:inline;
+			margin-left:0.2rem;
+			margin-right:0.2rem;
+			padding:0.2rem;
+			border-radius:0.1rem;
+			background-color:green;
+			font-size:1rem;
+			color:white;	
+		}
+		.prInfo-l3d .prPriceOld{
+			display:inline;
+			margin-left:0.2rem;
+			color:rgba(0,128,0,0.72);
+			font-weight:bold;
+			font-size:1rem;
+			text-decoration:line-through;	
+		}
+		.btn-pr-l3d{
+			margin-top:1rem;
+			display:block;	
+		}
 <<<<<<< HEAD
 		
 =======
@@ -134,7 +241,52 @@
     padding: 1.5rem 2.1rem; /* Add some padding */
     cursor: pointer; /* Add a pointer cursor on mouse-over */
 	font-size: 1.25rem;
+	<style>
+		}
+.button {
+  border-radius: 2px;
+  background-color: #6C0;
+  border: none;
+  color: #FFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 1px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 }
 	.info {background-color: #33CC00;} /* Blue */
 	.info:hover {background: #390;}
 >>>>>>> 1bd740e4cc3c6082cc51d6d5ac57ad8b5534a266
+
+<<<<<<< HEAD
+/*Day la css 
+=======
+>>>>>>> cc569a43f953ecd4662b7fcab13330bdbfdf4d14
