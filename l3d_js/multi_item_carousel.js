@@ -1,8 +1,12 @@
 // JavaScript Document
 //Tu dong chay carousel 2giay
+//Carousel se tu dong dung khi dua chuot vao
 $('.multi-item-carousel').carousel({
-  interval: 2000
+  interval: 2000,
+  pause:"hover"
 });
+
+
 //Moi item se copy them 2 item ke tiep tao thanh 1 slide 3 item
 $('.multi-item-carousel .item').each(function(){	
 	var indexCurrentItem = $(this).index();	
