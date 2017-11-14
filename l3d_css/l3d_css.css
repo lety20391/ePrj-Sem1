@@ -81,8 +81,8 @@
 			margin-right:5rem;		 
 		}
 	/*Day la css cho partner */
-		.multi-item-carousel .carousel-inner .item>div>img{
-			padding:2.5rem;	
+		.multi-item-carousel .carousel-inner .item>div{
+			padding:4rem;	
 		}
 		
 	/*Day la css cho footer*/
