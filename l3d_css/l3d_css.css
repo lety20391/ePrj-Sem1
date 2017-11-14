@@ -157,7 +157,8 @@ Day la CSS cho query
 		.section-query-l3d{			
 			background-color:rgba(44, 62, 80,1.0);
 			text-align:center;
-			padding-top:1rem;			
+			padding-top:1rem;
+			padding-bottom:0.5rem;			
 		}
 		.section-query-l3d>p{
 			font-size:2rem;
