@@ -149,6 +149,35 @@
 			background-color:rgba(44, 62, 80,1.0);
 			color:white;
 		}
+/*--------------------
+----------------------
+Day la CSS cho query
+	------------------
+		------------ */
+		.section-query-l3d{			
+			background-color:rgba(44, 62, 80,1.0);
+			text-align:center;
+			padding-top:1rem;			
+		}
+		.section-query-l3d>p{
+			font-size:2rem;
+			text-transform:uppercase;
+			font-weight:bold;
+			color:white;
+		}
+		.question-query-l3d>p{
+			font-size:1.23rem;
+			color:rgba(44, 62, 80,1.0);
+				
+		}
+		.answer-query-l3d>p{
+			padding:0.5rem;
+			font-size:1rem;
+			color:white;
+			background-color:rgba(39, 174, 96,1.0);
+				
+		}
+		
 <<<<<<< HEAD
 		
 =======
@@ -163,3 +192,4 @@
 	.info {background-color: #33CC00;} /* Blue */
 	.info:hover {background: #390;}
 >>>>>>> 1bd740e4cc3c6082cc51d6d5ac57ad8b5534a266
+
