@@ -1,4 +1,13 @@
 /* CSS Document */
+	.left{
+		text-align:left;	
+	}
+	.right{
+		text-align:right;	
+	}
+	.center{
+		text-align:center;	
+	}
 /* Set root font size */
 @media screen and (min-width:992px){
 	html{
@@ -92,7 +101,7 @@
 	
 			margin-top:1.25rem;
 			padding:6.25rem;
-			background:linear-gradient(rgba(95,94,94,1.00),white 60%);	
+			background:linear-gradient(#74E868,white 60%);	
 		}
 		.row.section3-homepage-l3d>div>p{
 			font-size:1.25rem;	

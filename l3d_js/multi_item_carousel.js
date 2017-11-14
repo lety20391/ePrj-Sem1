@@ -19,7 +19,7 @@ $(function loop(){
 //Tu dong chay carousel 2giay
 //Carousel se tu dong dung khi dua chuot vao
 $('.multi-item-carousel').carousel({
-  interval: 2000,
+  interval: false,
   pause:"hover"
 });
 
