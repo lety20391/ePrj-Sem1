@@ -68,6 +68,14 @@
 			justify-content:center;
 		}
 		
+		.bigSec-homepage-l3d>h2{			
+			text-align:center;
+			text-transform:uppercase;
+			font-weight:bold;
+			font-size:2rem;
+			color:rgba(39, 174, 96,1.0);
+		}
+		
 		/*Mau chu cho highlight product*/
 		.highlight-homepage-l3d{
 			color:rgba(211, 84, 0,1.0);
@@ -85,6 +93,11 @@
 		}
 		.row.section1-homepage-l3d>div>p{
 			font-size:1.25rem;
+		}
+		.row.section1-homepage-l3d>div>img{
+			border-color:rgba(255,253,14,1.00);
+			border-width:medium;
+			border-radius:0.5rem;	
 		}
 		
 		.row.section2-homepage-l3d{
@@ -108,10 +121,7 @@
 		}
 	
 		
-		.row.partner-homepage-l3d{			
-			display:flex;
-			justify-content:space-between;
-		}
+		
 		.img-responsive.partner-homepage-l3d{
 			margin-left:5rem;	
 			margin-right:5rem;		 
