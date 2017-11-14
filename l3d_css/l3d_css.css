@@ -105,7 +105,17 @@
 		.multi-item-carousel .carousel-inner .item>div{
 			padding:4rem;	
 		}
-		
+		.multi-item-carousel .carousel-inner .item>div>a>img{
+				width:600px;	
+		}
+		@media screen and (max-width:767px){
+			.multi-item-carousel .carousel-inner .item>div>a>img{
+				width:150px;	
+			}
+			.multi-item-carousel .carousel-inner .item>div{
+				padding:2rem;	
+			}
+		}
 	/*Day la css cho footer*/
 		.jumbotron.footer-homepage-l3d{
 			padding:1.25rem;
