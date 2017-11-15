@@ -25,13 +25,12 @@
             <a class="navbar-brand" href="#"> Home</a>
         </div>-->        
         <ul class="nav navbar-nav l3d">
-        	<li><a href="index.html"> Home</a></li>
-            <li><a href="AboutUs.html"> About Us</a></li>
-            <li><a href="product category.html"> Products-Categories</a></li>
-            <li><a href="query.html"> Query</a></li>
-            <li><a href="ShowCase.html"> Show-case</a></li>
-            <li><a href="contactUs.html"> Contact us</a></li>
-            <li><a href="ContactUS.html"> Contact us</a></li>
+        	<li><a href="#"> Home</a></li>
+            <li><a href="#"> About Us</a></li>
+            <li><a href="#"> Products-Categories</a></li>
+            <li><a href="#"> Query</a></li>
+            <li><a href="#"> Show-case</a></li>
+            <li><a href="#"> Contact us</a></li>
         </ul>
         
     </div>
@@ -42,8 +41,8 @@ thay  doi
 <!-- TemplateEndEditable -->
 <!--Day la phan Footer-->
 <div class="jumbotron footer-homepage-l3d">
-    <div class="container" >
-    	<div class="col-sm-6">
+    <div class="container-fluid" >
+    	<div class="col-sm-6" style="text-align:left">
         	<p>Copyright &copy; 2017. All right reserved</p>
         </div>
         <div class="col-sm-6" style="text-align:right">
@@ -51,7 +50,6 @@ thay  doi
         </div>           
     </div>
 </div>
-
 </body>
 </html>
 
