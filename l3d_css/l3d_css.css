@@ -266,9 +266,7 @@ Day la CSS cho Detail product
 		.prCat-l3d .prBriefInfo{
 			color:white;				
 		}
-<<<<<<< HEAD
-		
-=======
+
 	/*Day la css cho button*/
 		.btn {
     border: thin; /* Remove borders */
@@ -319,17 +317,9 @@ Day la CSS cho Detail product
 }
 	.info {background-color: #33CC00;} /* Blue */
 	.info:hover {background: #390;}
->>>>>>> 1bd740e4cc3c6082cc51d6d5ac57ad8b5534a266
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 /*Day la css 
-=======
->>>>>>> cc569a43f953ecd4662b7fcab13330bdbfdf4d14
-=======
->>>>>>> cc569a43f953ecd4662b7fcab13330bdbfdf4d14
-<<<<<<< HEAD
-=======
+
 /*CSS TIMELINE*/
 * {
     box-sizing: border-box;
@@ -465,4 +455,4 @@ body {
     left: 0%;
   }
 }
->>>>>>> 5622062dc69475c3d1511a20b5644d0b522ef2f1
+
