@@ -317,38 +317,29 @@ Day la CSS cho Detail product
 }
 	.info {background-color: #33CC00;} /* Blue */
 	.info:hover {background: #390;}
-
-/*CSS TIMELINE*/
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #B9FFC9;
-    font-family: Helvetica, sans-serif;
-}
-
+/*Css cho Timeline*/
+/* CSS Document */
 /* The actual timeline (the vertical ruler) */
-.timeline.aboutus-l3d{
+.timeline.abus-l3d {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 /* The actual timeline (the vertical ruler) */
-.timeline.aboutus-l3d::after {
+.timeline.abus-l3d::after {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: #FFCC33;
+    background-color: green;
     top: 0;
     bottom: 0;
     left: 50%;
-    margin-left: 0px;
+    margin-left: -3px;
 }
 
 /* Container around content */
-.container.aboutus-l3d{
+.container.abus-l3d {
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
@@ -356,12 +347,12 @@ body {
 }
 
 /* The circles on the timeline */
-.container.aboutus-l3d ::after {
+.container.abus-l3d::after {
     content: '';
     position: absolute;
     width: 25px;
     height: 25px;
-    right: -17px;
+    right: -12px;
     background-color: white;
     border: 4px solid #FF9F55;
     top: 15px;
@@ -370,17 +361,17 @@ body {
 }
 
 /* Place the container to the left */
-.aboutus-l3d.left {
-    left: 0%;
+.left.abus-l3d {
+    left: 0;
 }
 
 /* Place the container to the right */
-.aboutus-l3d.right {
+.right.abus-l3d {
     left: 50%;
 }
 
 /* Add arrows to the left container (pointing right) */
-.aboutus-l3d.left::before {
+.left.abus-l3d::before {
     content: " ";
     height: 0;
     position: absolute;
@@ -391,11 +382,10 @@ body {
     border: medium solid white;
     border-width: 10px 0 10px 10px;
     border-color: transparent transparent transparent white;
-
 }
 
 /* Add arrows to the right container (pointing left) */
-.aboutus-l3d.right::before {
+.right.abus-l3d::before {
     content: " ";
     height: 0;
     position: absolute;
@@ -409,12 +399,12 @@ body {
 }
 
 /* Fix the circle for containers on the right side */
-.aboutus-l3d.right::after {
-    left: -16px;
+.right.abus-l3d::after {
+    left: -12px;
 }
 
 /* The actual content */
-.aboutus-l3d.content {
+.content.abus-l3d {
     padding: 20px 30px;
     background-color: white;
     position: relative;
@@ -422,21 +412,21 @@ body {
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
-@media all and (max-width: 1000px) {
+@media all and (max-width: 600px) {
   /* Place the timelime to the left */
-  .timeline.aboutus-l3d::after {
+  .timeline.abus-l3d::after {
     left: 31px;
   }
   
   /* Full-width containers */
-  .container.aboutus-l3d {
+  .container.abus-l3d {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
   }
   
   /* Make sure that all arrows are pointing leftwards */
-  .container.aboutus-l3d::before {
+  .container.abus-l3d::before {
     left: 60px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
@@ -444,12 +434,13 @@ body {
   }
 
   /* Make sure all circles are at the same spot */
-  .aboutus-l3d.left::after, .aboutus-l3d.right::after {
-    left: 0%;
+  .left.abus-l3d::after, .right.abus-l3d::after {
+    left: 15px;
   }
   
   /* Make all right containers behave like the left ones */
-  .aboutus-l3d.right {
+  .right.abus-l3d {
     left: 0%;
   }
 }
+
