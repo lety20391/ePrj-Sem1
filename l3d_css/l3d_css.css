@@ -319,6 +319,10 @@ Day la CSS cho Detail product
 	.info:hover {background: #390;}
 /*Css cho Timeline*/
 /* CSS Document */
+
+.aboutus-body-l3d{
+	background-color:black;	
+}
 /* The actual timeline (the vertical ruler) */
 .timeline.abus-l3d {
     position: relative;
