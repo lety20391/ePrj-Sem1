@@ -68,6 +68,16 @@
 			justify-content:center;
 		}
 		
+		/*Day la CSS cho About us Homepage*/
+		.about-homepage-l3d{
+			margin-left:3rem;				
+		}
+		.about-homepage-l3d .brand-l3d{
+			font-size:1.25rem;
+			font-weight:bold;
+			color:rgba(44, 62, 80,1.0);			
+		}
+		
 		.section-homepage-l3d{			
 			background-color:rgba(44, 62, 80,1.0);
 			text-align:center;
