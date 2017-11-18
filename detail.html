@@ -41,13 +41,15 @@
 <!-- InstanceBeginEditable name="thaydoi" -->
 
 <!--Day la phan Product detail-->
-<div class="container contain-pr-l3d" ng-app="detailApp" ng-controller="detailController">
+<div class="container contain-pr-l3d" ng-app="detailApp" ng-controller="detailController" id="product">
+	<!--Phan thong bao khi chua co san pham nao duoc lua chon-->
+    <span id="announceDetail" ng-hide="announceHide">Sorry. You haven't choose any product</span>
 	<!--Day la phan hinh anh-->
-	<div class="col-sm-6 prImg-l3d">
+	<div class="col-sm-6 prImg-l3d" id="imageDetail" ng-hide="!announceHide">
     	<img src="{{proImg}}" width="400px">
     </div>
     <!--Day la phan thong tin-->
-    <div class="col-sm-6 prInfo-l3d">
+    <div class="col-sm-6 prInfo-l3d" id="inforDetail" ng-hide="!announceHide">
     	<p class="prName">{{proName}}</p><br/>
         <p class="prDetail">
         PRODUCT ID: {{proID}}<br/><br/>        
@@ -67,13 +69,19 @@
 	var app = angular.module("detailApp", []);
 	app.controller("detailController", function ($scope){					
 		//Tim productID tuong ung duoc luu trong section Storage luu vao bien Index
+		$scope.announceHide=true;
 		var index =-1;
 		findID = localStorage.getItem("proID");
-		alert(findID);
 		for (var i = 0; i < productDetail.length; i++){
 			if (findID == productDetail[i].ID)
 				index = i;
 		}
+		//Neu khong tim thay thi khong hien thi thong tin san pham
+		if (index == -1){
+			$scope.announceHide=false;
+			return;	
+		}
+		
 		//gan gia tri tuong ung de hien thi
 		$scope.proID = productDetail[index].ID;
 		$scope.proName = productDetail[index].Name;
@@ -81,8 +89,12 @@
 		$scope.proPrice = productDetail[index].Price;
 		$scope.proOff = productDetail[index].Off;
 		$scope.proImg = productDetail[index].Img;		
+	});
+	window.addEventListener("beforeunload", function() {
+		localStorage.clear();
 	});	
 </script>
+
 
 <!-- InstanceEndEditable -->
 

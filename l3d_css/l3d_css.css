@@ -230,7 +230,12 @@ Day la CSS cho Detail product
 			margin-top:1rem;
 			display:block;	
 		}
-		
+		#announceDetail{
+			margin:auto;
+			width:80%;
+			font-size:3rem;
+			color:red;	
+		}
 /*--------------------
 ----------------------
 Day la CSS cho Detail product
