@@ -4,10 +4,10 @@
 	"003" : corn
 	"004" : quinoa
 "1xx" Rice:
-	"101" : rice1
-	"102" : rice2
-	"103" : rice3
-	"104" : rice4
+	"101" : polished Rice
+	"102" : brown Rice
+	"103" : sticky Rice
+	"104" : wild Rice
 "2xx" Pulse"
 	"201" : bean
 	"202" : lentil
