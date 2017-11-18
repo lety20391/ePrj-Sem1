@@ -107,5 +107,41 @@ var productDetail = [
 		Price : "135",
 		Off : "0.15",
 		Img : "image/pulse/204_peas_big.jpg"
+	},
+	{
+		ID : "301",
+		Name : "Black Pepper",
+		Cate : "Spice",
+		Detail : "The reason that pepper was so cherished is that it served important culinary purposes. Not only could its pungency spice up otherwise bland foods, but it could disguise a food's lack of freshness, the latter being an especially important quality in the times before efficient means of preservation.",
+		Price : "390",
+		Off : "0.24",
+		Img : "image/spice/301_blackPepper_big.jpg"
+	},
+	{
+		ID : "302",
+		Name : "Cinnamon",
+		Cate : "Spice",
+		Detail : "The Cinnamon we use is the bark of Cinnamomum tree. This bark has many compounds which give it medicinal properties. When branches of the Cinnamomum tree are cut, the inner bark is extracted after removing the woody parts; this inner bark gives us cinnamon. Upon drying, the strips roll to give the shape we see.",
+		Price : "190",
+		Off : "0.34",
+		Img : "image/spice/302_cinnamon_big.jpg"
+	},
+	{
+		ID : "303",
+		Name : "Ginger",
+		Cate : "Spice",
+		Detail : "The dried rhizome of ginger contains approximately 1–4% volatile oils. These are the medically active constituents of ginger and are also responsible for ginger’s characteristic odor and taste. The aromatic constituents include zingiberene and bisabolene, while the pungent constituents are known as gingerols and shogaols. The pungent constituents are credited with the anti-nausea and anti-vomiting effects of ginger.",
+		Price : "170",
+		Off : "0.2",
+		Img : "image/spice/303_ginger_big.jpg"
+	},
+	{
+		ID : "304",
+		Name : "Cayenne",
+		Cate : "Spice",
+		Detail : "Cayenne contains a resinous and pungent substance known as capsaicin. Topical application of capsaicin relieves pain and itching by acting on sensory nerves. Capsaicin temporarily depletes “substance P”, a chemical in nerves that transmits pain sensations. Without substance P, pain signals can no longer be sent. The effect is temporary. Numerous double-blind trials have proven topically applied capsaicin creams are helpful for a range of conditions, including nerve pain in diabetes (diabetic neuropathy), post-surgical pain,psoriasis, muscle pain due to fibromyalgia, nerve pain after shingles (postherpetic neuralgia),osteoarthritis pain, and rheumatoid arthritis pain.",
+		Price : "200",
+		Off : "0.11",
+		Img : "image/spice/304_cayenne_big.jpg"
 	}
 ];
