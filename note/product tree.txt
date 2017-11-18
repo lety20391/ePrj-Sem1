@@ -1,0 +1,15 @@
+"0xx" Cereal:
+	"001" : buckwheat
+	"002" : chia
+	"003" : corn
+	"004" : quinoa
+"1xx" Rice:
+	"101" : rice1
+	"102" : rice2
+	"103" : rice3
+	"104" : rice4
+"2xx" Pulse"
+	"201" : bean
+	"202" : lentil
+	"203" : lupin
+	"204" : pea
