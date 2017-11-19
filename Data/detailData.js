@@ -5,10 +5,11 @@ var productDetail = [
 		Name : "Buckwheat",
 		Cate : "Cereal",
 		Detail : "High in protein (13-15%), second highest only to oats, and rich in the amino acid lysine. Rich in carbohydrates (mainly starch). Rich in polyunsaturated essential fatty acids, such as linoleic acid.Contains vitamins B1, C and E. Contains higher levels of zinc, copper, and manganese than other cereal grains, and the bioavailability of these minerals is also quite high. High in soluble fibre.",
-		Brief : "High in protein (13-15%), second highest only to oats, and rich in the amino acid lysine. Rich in carbohydrates (mainly starch)...",
+		Brief : "High in protein (13-15%), second highest only to oats, and rich in the amino acid lysine...",
 		Price : "600",
 		Off : "0.5",
-		Img : "image/Cereal/001_buckwheat_big.jpg"
+		Img : "image/Cereal/001_buckwheat_big.jpg",
+		smImg : "image/Cereal/001_buckwheat.jpg"
 	},
 	{
 		ID : "002",
@@ -18,7 +19,8 @@ var productDetail = [
 		Brief : "Chia is grown commercially for its seed, a food rich in omega-3 fatty acids since the seeds yield 25–30% extractable oil, including α-linolenic acid.",
 		Price : "700",
 		Off : "0.3",
-		Img : "image/Cereal/002_chia_big.jpg"
+		Img : "image/Cereal/002_chia_big.jpg",
+		smImg : "image/Cereal/002_chia.jpg"
 	},
 	{
 		ID : "003",
@@ -28,7 +30,8 @@ var productDetail = [
 		Brief : "Raw, yellow, sweet maize kernels are composed of 76% water, 19% carbohydrates, 3% protein, and 1% fat (table).",
 		Price : "300",
 		Off : "0.43",
-		Img : "image/Cereal/003_corn_big.jpg"
+		Img : "image/Cereal/003_corn_big.jpg",
+		smImg : "image/Cereal/003_corn.jpg"
 	},
 	{
 		ID : "004",
@@ -38,7 +41,8 @@ var productDetail = [
 		Brief : "Rich in carbohydrates, with a low glycemic index of 53. High protein content (15%), providing all essential amino acids, including lysine.",
 		Price : "350",
 		Off : "0.7",
-		Img : "image/Cereal/004_quinoa_big.jpg"
+		Img : "image/Cereal/004_quinoa_big.jpg",
+		smImg : "image/Cereal/004_quinoa.jpg"
 	},
 	{
 		ID : "101",
@@ -48,7 +52,8 @@ var productDetail = [
 		Brief : "Rice that has shed its bran layers can also be referred to as \"milled rice\".",
 		Price : "150",
 		Off : "0.3",
-		Img : "image/rice/101_polishedRice_big.jpg"
+		Img : "image/rice/101_polishedRice_big.jpg",
+		smImg : "image/rice/101_polishedRice.jpg"
 	},
 	{
 		ID : "102",
@@ -58,7 +63,8 @@ var productDetail = [
 		Brief : "This healthful rice sheds its outer husk and retains its bran and germ layers that give it a characteristic tan color.",
 		Price : "100",
 		Off : "0.1",
-		Img : "image/rice/102_brownRice_big.jpg"
+		Img : "image/rice/102_brownRice_big.jpg",
+		smImg : "image/rice/102_brownRice.jpg"
 	},
 	{
 		ID : "103",
@@ -68,7 +74,8 @@ var productDetail = [
 		Brief : "When cooked, sticky rice is especially sticky and is often ground into rice flour.",
 		Price : "175",
 		Off : "0.2",
-		Img : "image/rice/103_stickyRice_big.jpg"
+		Img : "image/rice/103_stickyRice_big.jpg",
+		smImg : "image/rice/103_stickyRice.jpg"
 	},
 	{
 		ID : "104",
@@ -78,7 +85,8 @@ var productDetail = [
 		Brief : "High in protein, wild rice adds a colorful, exotic flair to any rice dish.",
 		Price : "250",
 		Off : "0.2",
-		Img : "image/rice/104_wildRice_big.jpg"
+		Img : "image/rice/104_wildRice_big.jpg",
+		smImg : "image/rice/104_wildRice.jpg"
 	},
 	{
 		ID : "201",
@@ -88,7 +96,8 @@ var productDetail = [
 		Brief : "Beans are the most well-known pulses, so much so to be elected official representatives of legumes.",
 		Price : "190",
 		Off : "0.1",
-		Img : "image/pulse/201_bean_big.jpg"
+		Img : "image/pulse/201_bean_big.jpg",
+		smImg : "image/pulse/201_bean.jpg"
 	},
 	{
 		ID : "202",
@@ -98,7 +107,8 @@ var productDetail = [
 		Brief : "Lentils are rich in protein, calcium and iron. These are the most easily digestible pulses, especially in the red peeled variant.",
 		Price : "120",
 		Off : "0.1",
-		Img : "image/pulse/202_lentils_big.jpg"
+		Img : "image/pulse/202_lentils_big.jpg",
+		smImg : "image/pulse/202_lentils.jpg"
 	},
 	{
 		ID : "203",
@@ -108,7 +118,8 @@ var productDetail = [
 		Brief : "Lupins can be eaten as delicious aperitif snacks or as ingredients for soups.",
 		Price : "110",
 		Off : "0.2",
-		Img : "image/pulse/203_lupin_big.jpg"
+		Img : "image/pulse/203_lupin_big.jpg",
+		smImg : "image/pulse/203_lupin.jpg"
 	},
 	{
 		ID : "204",
@@ -118,7 +129,8 @@ var productDetail = [
 		Brief : "They also contain a fair amount of carbohydrates, proteins, minerals and fibre, which exert a beneficial effect on the intestine and cardiovascular system.",
 		Price : "135",
 		Off : "0.15",
-		Img : "image/pulse/204_peas_big.jpg"
+		Img : "image/pulse/204_peas_big.jpg",
+		smImg : "image/pulse/204_peas.jpg"
 	},
 	{
 		ID : "301",
@@ -128,7 +140,8 @@ var productDetail = [
 		Brief : "The reason that pepper was so cherished is that it served important culinary purposes.",
 		Price : "390",
 		Off : "0.24",
-		Img : "image/spice/301_blackPepper_big.jpg"
+		Img : "image/spice/301_blackPepper_big.jpg",
+		smImg : "image/spice/301_blackPepper.jpg"
 	},
 	{
 		ID : "302",
@@ -138,7 +151,8 @@ var productDetail = [
 		Brief : "The Cinnamon we use is the bark of Cinnamomum tree. This bark has many compounds which give it medicinal properties.",
 		Price : "190",
 		Off : "0.34",
-		Img : "image/spice/302_cinnamon_big.jpg"
+		Img : "image/spice/302_cinnamon_big.jpg",
+		smImg : "image/spice/302_cinnamon.jpg"
 	},
 	{
 		ID : "303",
@@ -148,7 +162,8 @@ var productDetail = [
 		Brief : "The dried rhizome of ginger contains approximately 1–4% volatile oils.",
 		Price : "170",
 		Off : "0.2",
-		Img : "image/spice/303_ginger_big.jpg"
+		Img : "image/spice/303_ginger_big.jpg",
+		smImg : "image/spice/303_ginger.jpg"
 	},
 	{
 		ID : "304",
@@ -158,6 +173,7 @@ var productDetail = [
 		Brief : "Topical application of capsaicin relieves pain and itching by acting on sensory nerves.",
 		Price : "200",
 		Off : "0.11",
-		Img : "image/spice/304_cayenne_big.jpg"
+		Img : "image/spice/304_cayenne_big.jpg",
+		smImg : "image/spice/304_cayenne.jpg"
 	}
 ];

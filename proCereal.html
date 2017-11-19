@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="css/bootstrap.min.css"/>
 <link rel="stylesheet" href="l3d_css/l3d_css.css"/>
 <link rel="stylesheet" href="l3d_css/multiItemCarousel.css"/>
+<script src="js/angular.min.js"></script>
+<script src="Data/detailData.js"></script>
 <!-- InstanceEndEditable -->
 </head>
 
@@ -42,10 +44,11 @@
 	<div class="jumbotron section-homepage-l3d">    	
         	<p>Cereal Category</p>    
 	</div>
+<div id="" ng-app="proCerealApp" ng-controller="proCerealController">
 	<!--Day la phan Highlight product 1-->    
     <div class="container prCat-l3d">
     	<div class="col-sm-8">
-        	<img class="img-responsive" src="image/Cereal/buckwheat.jpg" width="400px" height="150px">            
+        	<img class="img-responsive" src="image/Cereal/001_buckwheat.jpg" width="400px" height="150px">            
         </div>
         <div class="col-sm-4">
         	<p class="prCat prName">Buckwheat</p>
@@ -59,21 +62,21 @@
     <!--Day la phan Highlight product 2-->    
     <div class="container prCat-l3d">    	
         <div class="col-sm-4">
-        	<p class="prCat prName">Chia</p>
-            <p class="prOff"> Off -50% </p>
-            <p class="prBriefInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        	<p class="prCat prName">{{proName}}</p>
+            <p class="prOff"> - {{proOff*100}} % </p>
+            <p class="prBriefInfo">{{proBrief}}
             </p>
             <a href="#" class="btn btn-primary">Details</a>
             <a href="#" class="btn btn-primary">Showcase</a>
         </div>
         <div class="col-sm-8" align="right">
-        	<img class="img-responsive" src="image/Cereal/chia.jpg" width="400px" height="150px">
+        	<img class="img-responsive" src="{{proSmImg}}" width="400px" height="150px">
         </div>
     </div>
     <!--Day la phan Highlight product 3-->    
     <div class="container prCat-l3d">
     	<div class="col-sm-8">
-        	<img class="img-responsive" src="image/Cereal/corn.jpg" width="400px" height="150px">            
+        	<img class="img-responsive" src="image/Cereal/003_corn.jpg" width="400px" height="150px">            
         </div>
         <div class="col-sm-4">
         	<p class="prCat prName">Corn</p>
@@ -95,11 +98,19 @@
             <a href="#" class="btn btn-primary">Showcase</a>
         </div>
         <div class="col-sm-8" align="right">
-        	<img class="img-responsive" src="image/Cereal/quinoa.jpg" width="400px" height="150px">
+        	<img class="img-responsive" src="image/Cereal/004_quinoa.jpg" width="400px" height="150px">
         </div>
     </div>
-    
+</div>    
 <script>
+	var cerealApp = angular.module("proCerealApp", []);
+	cerealApp.controller("proCerealController", function ($scope){
+		$scope.proName = productDetail[1].Name;
+		$scope.proOff = productDetail[1].Off;
+		$scope.proBrief = productDetail[1].Brief;
+		$scope.proSmImg = productDetail[1].smImg;
+		
+	});
 	//luu productID vao local storage
 	localStorage.setItem("proID", "002");	
 </script>
