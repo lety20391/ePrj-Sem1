@@ -236,6 +236,18 @@ Day la CSS cho Detail product
 			font-size:2rem;
 			color:red;	
 		}
+
+/*--------------------
+----------------------
+Day la CSS cho Cereal product
+	------------------
+		------------ */
+		/*.evenIndex{
+			display:none;	
+		}
+		.oddIndex{
+			display:none;	
+		}*/
 /*--------------------
 ----------------------
 Day la CSS cho Detail product
