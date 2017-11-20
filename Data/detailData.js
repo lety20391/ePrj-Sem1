@@ -9,7 +9,8 @@ var productDetail = [
 		Price : "600",
 		Off : "0.5",
 		Img : "image/Cereal/001_buckwheat_big.jpg",
-		smImg : "image/Cereal/001_buckwheat.jpg"
+		smImg : "image/Cereal/001_buckwheat.jpg",
+		catImg : "image/Cereal/000_cereal.jpg"
 	},
 	{
 		ID : "002",
@@ -20,7 +21,8 @@ var productDetail = [
 		Price : "700",
 		Off : "0.3",
 		Img : "image/Cereal/002_chia_big.jpg",
-		smImg : "image/Cereal/002_chia.jpg"
+		smImg : "image/Cereal/002_chia.jpg",
+		catImg : "image/Cereal/000_cereal.jpg"
 	},
 	{
 		ID : "003",
@@ -31,7 +33,8 @@ var productDetail = [
 		Price : "300",
 		Off : "0.43",
 		Img : "image/Cereal/003_corn_big.jpg",
-		smImg : "image/Cereal/003_corn.jpg"
+		smImg : "image/Cereal/003_corn.jpg",
+		catImg : "image/Cereal/000_cereal.jpg"
 	},
 	{
 		ID : "004",
@@ -42,7 +45,8 @@ var productDetail = [
 		Price : "350",
 		Off : "0.7",
 		Img : "image/Cereal/004_quinoa_big.jpg",
-		smImg : "image/Cereal/004_quinoa.jpg"
+		smImg : "image/Cereal/004_quinoa.jpg",
+		catImg : "image/Cereal/000_cereal.jpg"
 	},
 	{
 		ID : "101",
@@ -53,7 +57,8 @@ var productDetail = [
 		Price : "150",
 		Off : "0.75",
 		Img : "image/rice/101_polishedRice_big.jpg",
-		smImg : "image/rice/101_polishedRice.jpg"
+		smImg : "image/rice/101_polishedRice.jpg",
+		catImg : "image/rice/100_rice.jpg"
 	},
 	{
 		ID : "102",
@@ -64,7 +69,8 @@ var productDetail = [
 		Price : "100",
 		Off : "0.46",
 		Img : "image/rice/102_brownRice_big.jpg",
-		smImg : "image/rice/102_brownRice.jpg"
+		smImg : "image/rice/102_brownRice.jpg",
+		catImg : "image/rice/100_rice.jpg"
 	},
 	{
 		ID : "103",
@@ -75,7 +81,8 @@ var productDetail = [
 		Price : "175",
 		Off : "0.2",
 		Img : "image/rice/103_stickyRice_big.jpg",
-		smImg : "image/rice/103_stickyRice.jpg"
+		smImg : "image/rice/103_stickyRice.jpg",
+		catImg : "image/rice/100_rice.jpg"
 	},
 	{
 		ID : "104",
@@ -86,7 +93,8 @@ var productDetail = [
 		Price : "250",
 		Off : "0.2",
 		Img : "image/rice/104_wildRice_big.jpg",
-		smImg : "image/rice/104_wildRice.jpg"
+		smImg : "image/rice/104_wildRice.jpg",
+		catImg : "image/rice/100_rice.jpg"
 	},
 	{
 		ID : "201",
@@ -97,7 +105,8 @@ var productDetail = [
 		Price : "190",
 		Off : "0.1",
 		Img : "image/pulse/201_bean_big.jpg",
-		smImg : "image/pulse/201_bean.jpg"
+		smImg : "image/pulse/201_bean.jpg",
+		catImg : "image/pulse/200_pulse.jpg"
 	},
 	{
 		ID : "202",
@@ -108,7 +117,8 @@ var productDetail = [
 		Price : "120",
 		Off : "0.1",
 		Img : "image/pulse/202_lentils_big.jpg",
-		smImg : "image/pulse/202_lentils.jpg"
+		smImg : "image/pulse/202_lentils.jpg",
+		catImg : "image/pulse/200_pulse.jpg"
 	},
 	{
 		ID : "203",
@@ -119,7 +129,8 @@ var productDetail = [
 		Price : "110",
 		Off : "0.2",
 		Img : "image/pulse/203_lupin_big.jpg",
-		smImg : "image/pulse/203_lupin.jpg"
+		smImg : "image/pulse/203_lupin.jpg",
+		catImg : "image/pulse/200_pulse.jpg"
 	},
 	{
 		ID : "204",
@@ -130,7 +141,8 @@ var productDetail = [
 		Price : "135",
 		Off : "0.15",
 		Img : "image/pulse/204_peas_big.jpg",
-		smImg : "image/pulse/204_peas.jpg"
+		smImg : "image/pulse/204_peas.jpg",
+		catImg : "image/pulse/200_pulse.jpg"
 	},
 	{
 		ID : "301",
@@ -141,7 +153,8 @@ var productDetail = [
 		Price : "390",
 		Off : "0.24",
 		Img : "image/spice/301_blackPepper_big.jpg",
-		smImg : "image/spice/301_blackPepper.jpg"
+		smImg : "image/spice/301_blackPepper.jpg",
+		catImg : "image/spice/300_spice.jpg"
 	},
 	{
 		ID : "302",
@@ -152,7 +165,8 @@ var productDetail = [
 		Price : "190",
 		Off : "0.34",
 		Img : "image/spice/302_cinnamon_big.jpg",
-		smImg : "image/spice/302_cinnamon.jpg"
+		smImg : "image/spice/302_cinnamon.jpg",
+		catImg : "image/spice/300_spice.jpg"
 	},
 	{
 		ID : "303",
@@ -163,7 +177,8 @@ var productDetail = [
 		Price : "170",
 		Off : "0.2",
 		Img : "image/spice/303_ginger_big.jpg",
-		smImg : "image/spice/303_ginger.jpg"
+		smImg : "image/spice/303_ginger.jpg",
+		catImg : "image/spice/300_spice.jpg"
 	},
 	{
 		ID : "304",
@@ -174,6 +189,7 @@ var productDetail = [
 		Price : "200",
 		Off : "0.11",
 		Img : "image/spice/304_cayenne_big.jpg",
-		smImg : "image/spice/304_cayenne.jpg"
+		smImg : "image/spice/304_cayenne.jpg",
+		catImg : "image/spice/300_spice.jpg"
 	}
 ];
