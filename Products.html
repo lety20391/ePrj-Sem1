@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Cereal Categories</title>
+<title>Categories</title>
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="head" -->
 <link rel="stylesheet" href="css/bootstrap.min.css"/>
@@ -86,10 +86,15 @@
 <script>
 	var cerealApp = angular.module("proCerealApp", []);
 	var ID;
+	var Cate;
 	cerealApp.controller("proCerealController", function ($scope){
+		Cate = localStorage.getItem("proCate");
 		$scope.proData = [];
+		$scope.proCat = Cate;
+		$(document).prop("title", Cate + " Categories");
+		/*tao array moi dua tren Filter Category*/ 
 		for (var i = 0; i < productDetail.length; i++){
-			if ( productDetail[i].Cate == "Cereal"){
+			if ( productDetail[i].Cate == Cate){
 				$scope.proData.push(productDetail[i]);	
 			}
 		}

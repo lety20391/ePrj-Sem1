@@ -1,0 +1,136 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/templates/template1.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Categories</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" href="l3d_css/l3d_css.css"/>
+<link rel="stylesheet" href="l3d_css/multiItemCarousel.css"/>
+<script src="js/angular.min.js"></script>
+<script src="Data/detailData.js"></script>
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<!--Day la phan Logo Header-->
+<div class="jumbotron jumb-homepage-l3d" >
+    <div class="container" style="display:flex;justify-content:center;">
+        	<img src="Dat/logo.png" width="303px" height="319.5px">            
+    </div>
+</div>
+<!-- Day la phan Menu (ba Duyen lam) -->
+<nav class="navbar navbar-default nav-homepage-l3d">
+    <div class="container-fluid">
+        <!--<div class="navbar-header">
+            <a class="navbar-brand" href="#"> Home</a>
+        </div>-->        
+        <ul class="nav navbar-nav l3d">
+        	<li><a href="index.html"> Home</a></li>
+            <li><a href="AboutUs.html"> About Us</a></li>
+            <li><a href="product category.html"> Products-Categories</a></li>
+            <li><a href="query.html"> Query</a></li>
+            <li><a href="ShowCase.html"> Show-case</a></li>
+            <li><a href="ContactUS.html"> Contact us</a></li>
+        </ul>
+        
+    </div>
+</nav>
+<!-- InstanceBeginEditable name="thaydoi" -->
+
+<!--Day la phan Category product -->
+<div id="owner" ng-app="proCerealApp" ng-controller="proCerealController">
+	<div class="jumbotron section-homepage-l3d">    	
+        	<p>{{proCat}} Category</p>    
+	</div>
+    <!--Day la phan Highlight product 1-->
+    <!--Su dung ng-repeat de tao Div cho cac product dua tren proData (da duoc loc theo Category)
+    Neu ID la so le thi hien thi, so chan thi bo qua -->    
+    <div ng-repeat="x in proData">
+        <div class="container prCat-l3d oddIndex" ng-if="$even">
+            <div class="col-sm-8">
+                <img class="img-responsive" src="{{x.smImg}}" width="400px" height="150px">            
+            </div>
+            <div class="col-sm-4">
+                <p class="prCat prName">{{x.Name}}</p>
+                <p class="prOff"> - {{x.Off * 100}} % </p>
+                <p class="prBriefInfo">{{x.Brief}}
+                </p>
+                <button id="{{x.ID}}" class="btn btn-primary" onClick="getID(this)">Details</button>
+                <a href="#" class="btn btn-primary">Showcase</a>
+            </div>
+        </div>
+    
+    <!--Day la phan Highlight product 2-->
+    <!--Su dung ng-repeat de tao Div cho cac product dua tren proData (da duoc loc theo Category)
+    Neu ID la so chan thi hien thi, so le thi bo qua -->
+        
+        <div class="container prCat-l3d" ng-if="$odd" >	
+            <div class="col-sm-4">
+                <p class="prCat prName">{{x.Name}}</p>
+                <p class="prOff"> - {{x.Off*100}} % </p>
+                <p class="prBriefInfo">{{x.Brief}}
+                </p>
+                <button id="{{x.ID}}" class="btn btn-primary" onClick="getID(this)">Details</button>
+                <a href="#" class="btn btn-primary">Showcase</a>
+            </div>
+            <div class="col-sm-8" align="right">
+                <img class="img-responsive" src="{{x.smImg}}" width="400px" height="150px">
+            </div>
+        </div>
+    </div>
+    
+</div>    
+<script>
+	var cerealApp = angular.module("proCerealApp", []);
+	var ID;
+	var Cate;
+	cerealApp.controller("proCerealController", function ($scope){
+		Cate = localStorage.getItem("proCate");
+		$scope.proData = [];
+		$scope.proCat = Cate;
+		$(document).prop("title", Cate + " Categories");
+		/*tao array moi dua tren Filter Category*/ 
+		for (var i = 0; i < productDetail.length; i++){
+			if ( productDetail[i].Cate == Cate){
+				$scope.proData.push(productDetail[i]);	
+			}
+		}
+		/*$scope.proName = productDetail[1].Name;
+		$scope.proCat = productDetail[1].Cate;
+		$scope.proOff = productDetail[1].Off;
+		$scope.proBrief = productDetail[1].Brief;
+		$scope.proSmImg = productDetail[1].smImg;
+		$scope.proID = productDetail[1].ID;*/
+		
+	});
+	function getID(element){
+		ID = ($(element).attr("id"));
+		//luu productID vao local storage
+		localStorage.setItem("proID", ID);
+		window.location.href = "detail.html";	
+	}	
+</script>
+<!-- InstanceEndEditable -->
+
+<!--Day la phan Footer-->
+<div class="jumbotron footer-homepage-l3d">
+    <div class="container" >
+    	<div class="col-sm-6">
+        	<p>Copyright &copy; 2017. All right reserved</p>
+        </div>
+        <div class="col-sm-6" style="text-align:right">
+            <p>L3D Group</p> 
+        </div>           
+    </div>
+</div>
+
+<!--Day la phan lien ket javascript -->
+<!--Day la phan lien ket javascript -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="l3d_js/multi_item_carousel.js"></script>
+</body>
+<!-- InstanceEnd --></html>
