@@ -49,7 +49,7 @@
     <!--Su dung ng-repeat de tao Div cho cac product dua tren proData (da duoc loc theo Category)
     Neu ID la so le thi hien thi, so chan thi bo qua -->    
     <div ng-repeat="x in proData">
-        <div class="container prCat-l3d oddIndex" ng-if="$even">
+        <div class="container prCat-l3d oddIndex" ng-if="$even && $index < amount">
             <div class="col-sm-8">
                 <img class="img-responsive" src="{{x.smImg}}" width="400px" height="150px">            
             </div>
@@ -67,7 +67,7 @@
     <!--Su dung ng-repeat de tao Div cho cac product dua tren proData (da duoc loc theo Category)
     Neu ID la so chan thi hien thi, so le thi bo qua -->
         
-        <div class="container prCat-l3d" ng-if="$odd" >	
+        <div class="container prCat-l3d" ng-if="$odd && $index < amount" >	
             <div class="col-sm-4">
                 <p class="prCat prName">{{x.Name}}</p>
                 <p class="prOff"> - {{x.Off*100}} % </p>
@@ -88,7 +88,10 @@
 	var ID;
 	var Cate;
 	cerealApp.controller("proCerealController", function ($scope){
+		//lay Category tu localStorage
 		Cate = localStorage.getItem("proCate");
+		//thiet lap So luong san pham toi da se hien thi
+		$scope.amount = 4;
 		$scope.proData = [];
 		$scope.proCat = Cate;
 		$(document).prop("title", Cate + " Categories");
