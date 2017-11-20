@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="css/bootstrap.min.css"/>
 <link rel="stylesheet" href="l3d_css/l3d_css.css"/>
 <link rel="stylesheet" href="l3d_css/multiItemCarousel.css"/>
+<script src="js/angular.min.js"></script>
+<script src="Data/detailData.js"></script>
 <!-- InstanceEndEditable -->
 </head>
 
@@ -57,43 +59,34 @@
 	<div class="jumbotron section-homepage-l3d">    	
         	<p>Amazing Sale Off Product</p>    
 	</div>
+<div id="ownerAngular" ng-app="homeApp" ng-controller="homeController">
+<div ng-repeat="x in data">
 	<!--Day la phan Highlight product 1-->    
-    <div class="container hlight-homepage-l3d">
+    <div class="container hlight-homepage-l3d" ng-if="$even &&  $index < amount">
     	<div class="col-sm-8">
-        	<img class="img-responsive" src="image/rice/rice2.jpg" width="400px" height="150px">            
+        	<img class="img-responsive" src="{{x.smImg}}" width="400px" height="150px">            
         </div>
         <div class="col-sm-4">
-        	<p class="homepage prName">Rice 2</p>
-            <p class="prOff"> Off -50% </p>
-            <p class="prBriefInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta, arcu nec laoreet volutpat, mauris sem interdum dolor, a rhoncus enim lacus eget sapien.
+        	<p class="homepage prName">{{x.Name}}</p>
+            <p class="prOff"> - {{x.Off*100}} % </p>
+            <p class="prBriefInfo">{{x.Brief}}
             </p>
         </div>
     </div>
     <!--Day la phan Highlight product 2-->    
-    <div class="container hlight-homepage-l3d">    	
+    <div class="container hlight-homepage-l3d" ng-if="$odd && $index < amount">    	
         <div class="col-sm-4">
-        	<p class="homepage prName">Quinoa</p>
-        	<p class="prOff"> Off -50% </p>
-            <p class="prBriefInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta, arcu nec laoreet volutpat, mauris sem interdum dolor, a rhoncus enim lacus eget sapien.
+        	<p class="homepage prName">{{x.Name}}</p>
+        	<p class="prOff"> - {{x.Off*100}} % </p>
+            <p class="prBriefInfo">{{x.Brief}}
             </p>
         </div>
         <div class="col-sm-8" align="right">
-        	<img class="img-responsive" src="image/Cereal/quinoa.jpg" width="400px" height="150px">
+        	<img class="img-responsive" src="{{x.smImg}}" width="400px" height="150px">
         </div>
-    </div>
-    
-    <!--Day la phan Highlight product 3-->    
-    <div class="container hlight-homepage-l3d">
-    	<div class="col-sm-8">
-        	<img class="img-responsive" src="image/pulse/peas.jpg" width="400px" height="150px">
-        </div>
-        <div class="col-sm-4">
-        	<p class="homepage prName">Peas</p>
-            <p class="prOff"> Off -50% </p>
-            <p class="prBriefInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta, arcu nec laoreet volutpat, mauris sem interdum dolor, a rhoncus enim lacus eget sapien.
-            </p>
-        </div>
-    </div>
+    </div>   
+</div>  
+</div>
 <!--Day la phan Partner-->
 	<div class="jumbotron section-homepage-l3d">    	
         	<p>Our Partners</p>    
@@ -180,6 +173,28 @@
             </div>
         </div>
 	</div>
+<script>
+	var hApp = angular.module("homeApp", []);
+	hApp.controller("homeController", function($scope){
+		//so luong San pham se hien thi
+		$scope.amount = 3;
+		$scope.data = [];
+		var tempData = productDetail;
+		var tempVar;
+		
+		for (var i = 0; i < tempData.length; i++){
+			for (var j = i + 1; j < tempData.length; j++){
+				if ( tempData[i].Off < tempData[j].Off){
+					tempVar = tempData[j];
+					tempData[j] = tempData[i];
+					tempData[i] =tempVar;	
+				}
+			}
+		}
+		$scope.data = tempData;
+	});
+</script>
+    
 <!-- InstanceEndEditable -->
 
 <!--Day la phan Footer-->

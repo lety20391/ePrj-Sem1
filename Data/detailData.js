@@ -51,7 +51,7 @@ var productDetail = [
 		Detail : "The term “polished” simply refers to white rice that has had its outer brown layer of bran and germ removed. Rice that has shed its bran layers can also be referred to as \"milled rice\".",
 		Brief : "Rice that has shed its bran layers can also be referred to as \"milled rice\".",
 		Price : "150",
-		Off : "0.3",
+		Off : "0.75",
 		Img : "image/rice/101_polishedRice_big.jpg",
 		smImg : "image/rice/101_polishedRice.jpg"
 	},
@@ -62,7 +62,7 @@ var productDetail = [
 		Detail : "This healthful rice sheds its outer husk and retains its bran and germ layers that give it a characteristic tan color. Though brown rice takes a little longer to cook than white rice, the nutrient-dense layers are rich in vitamins and minerals.",
 		Brief : "This healthful rice sheds its outer husk and retains its bran and germ layers that give it a characteristic tan color.",
 		Price : "100",
-		Off : "0.1",
+		Off : "0.46",
 		Img : "image/rice/102_brownRice_big.jpg",
 		smImg : "image/rice/102_brownRice.jpg"
 	},
