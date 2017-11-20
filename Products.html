@@ -59,7 +59,7 @@
                 <p class="prBriefInfo">{{x.Brief}}
                 </p>
                 <button id="{{x.ID}}" class="btn btn-primary" onClick="getID(this)">Details</button>
-                <a href="#" class="btn btn-primary">Showcase</a>
+                <button id="" class="btn btn-primary" onClick="getName(this)">Showcase</button>
             </div>
         </div>
     
@@ -74,7 +74,7 @@
                 <p class="prBriefInfo">{{x.Brief}}
                 </p>
                 <button id="{{x.ID}}" class="btn btn-primary" onClick="getID(this)">Details</button>
-                <a href="#" class="btn btn-primary">Showcase</a>
+                <button name="{{x.ID}}" class="btn btn-primary" onClick="getName(this)">Showcase</button>
             </div>
             <div class="col-sm-8" align="right">
                 <img class="img-responsive" src="{{x.smImg}}" width="400px" height="150px">
@@ -115,6 +115,12 @@
 		localStorage.setItem("proID", ID);
 		window.location.href = "detail.html";	
 	}	
+	function getName(element){
+		Name = $(element).attr("name");
+		//luu productID vao local storage
+		localStorage.setItem("proID", Name);
+		window.location.href = "ShowCase.html";	
+	}
 </script>
 <!-- InstanceEndEditable -->
 
