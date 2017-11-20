@@ -345,6 +345,7 @@ Day la CSS cho Detail product
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
+	color:#FFF;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -363,8 +364,9 @@ Day la CSS cho Detail product
 .container.abus-l3d {
     padding: 10px 40px;
     position: relative;
-    background-color: inherit;
+    background-color:inherit;
     width: 50%;
+	text-align:left;
 }
 
 /* The circles on the timeline */
@@ -374,7 +376,7 @@ Day la CSS cho Detail product
     width: 25px;
     height: 25px;
     right: -12px;
-    background-color: white;
+    background-color:green;
     border: 4px solid #FF9F55;
     top: 15px;
     border-radius: 50%;
@@ -400,9 +402,9 @@ Day la CSS cho Detail product
     width: 0;
     z-index: 1;
     right: 30px;
-    border: medium solid white;
+    border: medium solid green;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
+    border-color: transparent transparent transparent green;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -414,7 +416,7 @@ Day la CSS cho Detail product
     width: 0;
     z-index: 1;
     left: 30px;
-    border: medium solid white;
+    border: medium solid green;
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
 }
@@ -427,7 +429,7 @@ Day la CSS cho Detail product
 /* The actual content */
 .content.abus-l3d {
     padding: 20px 30px;
-    background-color: white;
+    background-color: green;
     position: relative;
     border-radius: 6px;
 }
@@ -449,9 +451,9 @@ Day la CSS cho Detail product
   /* Make sure that all arrows are pointing leftwards */
   .container.abus-l3d::before {
     left: 60px;
-    border: medium solid white;
+    border: medium solid green;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent green transparent transparent;
   }
 
   /* Make sure all circles are at the same spot */
@@ -463,6 +465,10 @@ Day la CSS cho Detail product
   .right.abus-l3d {
     left: 0%;
   }
+}
+/*hinh about us*/
+.aboutushinh{
+	width:100%;
 }
 
 /*Show case*/
