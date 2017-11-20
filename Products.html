@@ -41,7 +41,7 @@
 <!-- InstanceBeginEditable name="thaydoi" -->
 
 <!--Day la phan Category product -->
-<div id="owner" ng-app="proCerealApp" ng-controller="proCerealController">
+<div id="owner" ng-app="productApp" ng-controller="productController">
 	<div class="jumbotron section-homepage-l3d">    	
         	<p>{{proCat}} Category</p>    
 	</div>
@@ -84,10 +84,10 @@
     
 </div>    
 <script>
-	var cerealApp = angular.module("proCerealApp", []);
+	var proApp = angular.module("productApp", []);
 	var ID;
 	var Cate;
-	cerealApp.controller("proCerealController", function ($scope){
+	proApp.controller("productController", function ($scope){
 		//lay Category tu localStorage
 		Cate = localStorage.getItem("proCate");
 		//thiet lap So luong san pham toi da se hien thi
