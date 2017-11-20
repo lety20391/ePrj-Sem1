@@ -28,7 +28,7 @@
         <ul class="nav navbar-nav l3d">
         	<li><a href="index.html"> Home</a></li>
             <li><a href="AboutUs.html"> About Us</a></li>
-            <li><a href="product category.html"> Products-Categories</a></li>
+            <li><a href="category.html"> Products-Categories</a></li>
             <li><a href="query.html"> Query</a></li>
             <li><a href="ShowCase.html"> Show-case</a></li>
             <li><a href="ContactUS.html"> Contact us</a></li>
