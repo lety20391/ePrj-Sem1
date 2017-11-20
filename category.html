@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Categories</title>
+<title>Category</title>
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="head" -->
 <link rel="stylesheet" href="css/bootstrap.min.css"/>
@@ -39,29 +39,24 @@
     </div>
 </nav>
 <!-- InstanceBeginEditable name="thaydoi" -->
-
-<!--Day la phan Category product -->
-<div id="owner" ng-app="productApp" ng-controller="productController">
+<!--Day la phan Highlight product -->
+<div id="owner" ng-app="cateApp" ng-controller="cateController">
 	<div class="jumbotron section-homepage-l3d">    	
-        	<p>{{proCat}} Category</p>    
+        	<p>Category</p>    
 	</div>
-    <!--Phan thong bao khi chua co san pham nao duoc lua chon-->
-    <span id="announceDetail" ng-hide="announceHide">Sorry. You haven't choose any category. <a href="category.html">Return to Category</a></span>
     <!--Day la phan Highlight product 1-->
     <!--Su dung ng-repeat de tao Div cho cac product dua tren proData (da duoc loc theo Category)
     Neu ID la so le thi hien thi, so chan thi bo qua -->    
-    <div ng-repeat="x in proData">
+    <div ng-repeat="x in cateData">
         <div class="container prCat-l3d oddIndex" ng-if="$even && $index < amount">
             <div class="col-sm-8">
-                <img class="img-responsive" src="{{x.smImg}}" width="400px" height="150px">            
+                <img class="img-responsive" src="{{x.catImg}}" width="400px" height="150px">            
             </div>
             <div class="col-sm-4">
-                <p class="prCat prName">{{x.Name}}</p>
-                <p class="prOff"> - {{x.Off * 100}} % </p>
-                <p class="prBriefInfo">{{x.Brief}}
+                <p class="prCat prName">{{x.Cate}}</p>
+                <p class="prBriefInfo">{{x.Pro}}
                 </p>
-                <button id="{{x.ID}}" class="btn btn-primary" onClick="getID(this)">Details</button>
-                <button id="" class="btn btn-primary" onClick="getName(this)">Showcase</button>
+                <button id="{{x.Cate}}" class="btn btn-primary" onClick="getID(this)">Goto {{x.Cate}} Page</button>
             </div>
         </div>
     
@@ -71,45 +66,51 @@
         
         <div class="container prCat-l3d" ng-if="$odd && $index < amount" >	
             <div class="col-sm-4">
-                <p class="prCat prName">{{x.Name}}</p>
-                <p class="prOff"> - {{x.Off*100}} % </p>
-                <p class="prBriefInfo">{{x.Brief}}
+                <p class="prCat prName">{{x.Cate}}</p>         
+                <p class="prBriefInfo">{{x.Pro}}
                 </p>
-                <button id="{{x.ID}}" class="btn btn-primary" onClick="getID(this)">Details</button>
-                <button name="{{x.ID}}" class="btn btn-primary" onClick="getName(this)">Showcase</button>
+                <button id="{{x.Cate}}" class="btn btn-primary" onClick="getID(this)">Goto {{x.Cate}} Page</button>
             </div>
             <div class="col-sm-8" align="right">
-                <img class="img-responsive" src="{{x.smImg}}" width="400px" height="150px">
+                <img class="img-responsive" src="{{x.catImg}}" width="400px" height="150px">
             </div>
         </div>
     </div>
-    
-</div>    
+</div>
 <script>
-	var proApp = angular.module("productApp", []);
+	var cApp = angular.module("cateApp", []);
 	var ID;
 	var Cate;
-	proApp.controller("productController", function ($scope){
-		$scope.announceHide = true;		
-		//lay Category tu localStorage
-		Cate = localStorage.getItem("proCate");	
-		if (Cate !== ""){
-			$scope.announceHide = true;	
-		}else{
-			$scope.announceHide = false;	
-		}
-				
+	cApp.controller("cateController", function ($scope){		
 		//thiet lap So luong san pham toi da se hien thi
 		$scope.amount = 4;
-		$scope.proData = [];
-		$scope.proCat = Cate;
-		$(document).prop("title", Cate + " Categories");
-		/*tao array moi dua tren Filter Category*/ 
-		for (var i = 0; i < productDetail.length; i++){
-			if ( productDetail[i].Cate == Cate){
-				$scope.proData.push(productDetail[i]);	
+		//tim kiem Cate trong bien productDetail, luu ra thanh 1 mang chi bao gom cac Cate
+		var temp = [];				
+		temp[0] = productDetail[0];		
+		for (var i = 1; i < productDetail.length; i++){
+			var chk = true;
+			for (var j = 0; j< temp.length; j++){
+				if (temp[j].Cate == productDetail[i].Cate){
+					chk = false;
+				}
+			}
+			if (chk == true){
+				var t = temp.length;
+				temp[t] = productDetail[i];
 			}
 		}
+		//tim kiem cac product trong cung 1 Cate
+		
+		for (var i = 0; i < temp.length; i++){
+			var tempPro = "";
+			for (var j = 0; j < productDetail.length; j++){
+				if (productDetail[j].Cate == temp[i].Cate){
+					tempPro += productDetail[j].Name + ", ";	
+				}
+			}
+			temp[i].Pro = tempPro;
+		}
+		$scope.cateData = temp;
 		/*$scope.proName = productDetail[1].Name;
 		$scope.proCat = productDetail[1].Cate;
 		$scope.proOff = productDetail[1].Off;
@@ -119,20 +120,11 @@
 		
 	});
 	function getID(element){
-		ID = ($(element).attr("id"));
+		Cate = ($(element).attr("id"));
 		//luu productID vao local storage
-		localStorage.setItem("proID", ID);
-		window.location.href = "detail.html";	
-	}	
-	function getName(element){
-		Name = $(element).attr("name");
-		//luu productID vao local storage
-		localStorage.setItem("proID", Name);
-		window.location.href = "ShowCase.html";	
+		localStorage.setItem("proCate", Cate);
+		window.location.href = "Products.html";	
 	}
-	window.addEventListener("beforeunload", function() {
-		localStorage.setItem("proCate", "");
-	});	
 </script>
 <!-- InstanceEndEditable -->
 
