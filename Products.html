@@ -45,6 +45,8 @@
 	<div class="jumbotron section-homepage-l3d">    	
         	<p>{{proCat}} Category</p>    
 	</div>
+    <!--Phan thong bao khi chua co san pham nao duoc lua chon-->
+    <span id="announceDetail" ng-hide="announceHide">Sorry. You haven't choose any category. <a href="category.html">Return to Category</a></span>
     <!--Day la phan Highlight product 1-->
     <!--Su dung ng-repeat de tao Div cho cac product dua tren proData (da duoc loc theo Category)
     Neu ID la so le thi hien thi, so chan thi bo qua -->    
@@ -88,8 +90,15 @@
 	var ID;
 	var Cate;
 	proApp.controller("productController", function ($scope){
+		$scope.announceHide = true;		
 		//lay Category tu localStorage
-		Cate = localStorage.getItem("proCate");
+		Cate = localStorage.getItem("proCate");	
+		if (Cate !== ""){
+			$scope.announceHide = true;	
+		}else{
+			$scope.announceHide = false;	
+		}
+				
 		//thiet lap So luong san pham toi da se hien thi
 		$scope.amount = 4;
 		$scope.proData = [];
@@ -121,6 +130,9 @@
 		localStorage.setItem("proID", Name);
 		window.location.href = "ShowCase.html";	
 	}
+	window.addEventListener("beforeunload", function() {
+		localStorage.setItem("proCate", "");
+	});	
 </script>
 <!-- InstanceEndEditable -->
 
