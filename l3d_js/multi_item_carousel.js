@@ -1,21 +1,4 @@
 // JavaScript Document
-//Goi requestAnimFrame ~ tuong tu nhu setInterval 60Hz
-window.requestAnimFrame = (function(){
-    return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function( callback ){ window.setTimeout(callback, 1000 / 60); };
-})();
-
-//Kiem tra resolution neu thay doi thi goi resChange
-var resWidth = $(document).width();
-	checkRes = function (){
-		if (resWidth != $(document).width()){
-			resWidth = $(document).width();
-			$("span.info").text(resWidth);
-		}
-	};
-$(function loop(){
-	requestAnimFrame(loop);
-	checkRes();	
-})
 //Tu dong chay carousel 2giay
 //Carousel se tu dong dung khi dua chuot vao
 $('.multi-item-carousel').carousel({
