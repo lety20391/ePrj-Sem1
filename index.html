@@ -71,6 +71,7 @@
             <p class="prOff"> - {{x.Off*100}} % </p>
             <p class="prBriefInfo">{{x.Brief}}
             </p>
+            <button id="{{x.ID}}" class="btn btn-primary" onClick="getID(this)">More Detail</button>
         </div>
     </div>
     <!--Day la phan Highlight product 2-->    
@@ -80,6 +81,7 @@
         	<p class="prOff"> - {{x.Off*100}} % </p>
             <p class="prBriefInfo">{{x.Brief}}
             </p>
+            <button id="{{x.ID}}" class="btn btn-primary" onClick="getID(this)">More Detail</button>
         </div>
         <div class="col-sm-8" align="right">
         	<img class="img-responsive" src="{{x.smImg}}" width="400px" height="150px">
@@ -192,6 +194,12 @@
 		}
 		$scope.data = tempData;
 	});
+	function getID(element){
+		ID = ($(element).attr("id"));
+		//luu productID vao local storage
+		localStorage.setItem("proID", ID);
+		window.location.href = "detail.html";	
+	}
 </script>
     
 <!-- InstanceEndEditable -->
