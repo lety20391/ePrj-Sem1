@@ -1,6 +1,11 @@
 /* CSS Document */
 	
 /* Set root font size */
+@media (min-width:1200px){
+	html{
+		font-size:22px;	
+	}
+}
 @media (min-width:992px){
 	html{
 		font-size:16px;	
@@ -62,7 +67,8 @@
 		
 		/*Day la CSS cho About us Homepage*/
 		.about-homepage-l3d{
-			margin-left:3rem;				
+			margin:auto;
+			width:80%;				
 		}
 		.about-homepage-l3d .brand-l3d{
 			font-size:1.25rem;
