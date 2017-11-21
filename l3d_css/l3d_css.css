@@ -87,7 +87,8 @@
 		
 		.hlight-homepage-l3d{
 			background:linear-gradient( rgba(0,0,0,0.00),rgba(0,0,0,0.00)30%, green 30%);
-			margin-left:3rem;
+			margin:auto;
+			width:90%;
 			margin-top:2rem;	
 		}
 		.hlight-homepage-l3d>div.col-sm-8{
@@ -95,10 +96,10 @@
 		}		
 		.hlight-homepage-l3d>div>img{
 			border-radius:1rem;
-			width:70%;	
+			width:80%;	
 		}	
 		.hlight-homepage-l3d>div.col-sm-4{
-			padding-top:5rem;	
+			padding-top:4rem;	
 		}	
 		.hlight-homepage-l3d .homepage.prName{
 			display:inline;
