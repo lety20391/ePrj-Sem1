@@ -122,7 +122,14 @@
 		.hlight-homepage-l3d .prBriefInfo{
 			color:white;				
 		}
+		//css cho resolution > 1200px
 		@media (min-width:1200px){
+			.about-homepage-l3d{
+				font-size:1.5rem;				
+			}
+			.about-homepage-l3d .brand-l3d{
+				font-size:2rem;		
+			}
 			.hlight-homepage-l3d{
 			background:linear-gradient( rgba(0,0,0,0.00),rgba(0,0,0,0.00)30%, green 30%);
 			margin:auto;
