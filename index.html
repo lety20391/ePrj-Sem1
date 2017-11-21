@@ -63,10 +63,10 @@
 <div ng-repeat="x in data">
 	<!--Day la phan Highlight product 1-->    
     <div class="container hlight-homepage-l3d" ng-if="$even &&  $index < amount">
-    	<div class="col-sm-8">
+    	<div class="col-sm-8 col-lg-8">
         	<img class="img-responsive" src="{{x.smImg}}" width="400px" height="150px">            
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 col-lg-4">
         	<p class="homepage prName">{{x.Name}}</p>
             <p class="prOff"> - {{x.Off*100}} % </p>
             <p class="prBriefInfo">{{x.Brief}}
@@ -76,14 +76,14 @@
     </div>
     <!--Day la phan Highlight product 2-->    
     <div class="container hlight-homepage-l3d" ng-if="$odd && $index < amount">    	
-        <div class="col-sm-4">
+        <div class="col-sm-4 col-lg-4">
         	<p class="homepage prName">{{x.Name}}</p>
         	<p class="prOff"> - {{x.Off*100}} % </p>
             <p class="prBriefInfo">{{x.Brief}}
             </p>
             <button id="{{x.ID}}" class="btn btn-primary" onClick="getID(this)">More Detail</button>
         </div>
-        <div class="col-sm-8" align="right">
+        <div class="col-sm-8 col-lg-8" align="right">
         	<img class="img-responsive" src="{{x.smImg}}" width="400px" height="150px">
         </div>
     </div>   
