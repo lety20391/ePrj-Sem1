@@ -137,9 +137,12 @@
 				width:75%;	
 			}	
 			.hlight-homepage-l3d>div.col-sm-4{
-				padding-top:4rem;
-				font-size:3rem;/* */	
-			}	
+				padding-top:3rem;
+				font-size:2rem;/* */	
+			}
+			.hlight-homepage-l3d>div.col-sm-4>button{
+				font-size:2rem;/* */	
+			}		
 			.hlight-homepage-l3d .homepage.prName{
 				display:inline;
 				color:white;
