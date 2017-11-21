@@ -1,13 +1,5 @@
 /* CSS Document */
-	.left{
-		text-align:left;	
-	}
-	.right{
-		text-align:right;	
-	}
-	.center{
-		text-align:center;	
-	}
+	
 /* Set root font size */
 @media (min-width:992px){
 	html{
