@@ -471,7 +471,11 @@ Day la CSS cho Detail product
 	width:100%;
 }
 
-/*Show case*/
+/*--------------------
+----------------------
+Day la CSS cho showcase
+	------------------
+		------------ */
 .carousel-caption.showcase-l3d {
   position: relative;
   left: 0%;
@@ -507,4 +511,21 @@ Day la CSS cho Detail product
 .showcasehinh{
 	width:50%;
 	padding:2%;
+}
+.section-showcase-l3d{
+	background-color:rgba(44, 62, 80,1.0);
+	text-align:center;
+	padding-top:1rem;
+	padding-bottom:0.5rem;
+	margin-bottom:4rem;
+	margin-top:1.5rem;
+}
+.section-showcase-l3d>p{
+	font-size:2rem;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:white;
+}
+.carousel-indicators.showcase-l3d>li{
+	background-color:rgba(95,201,95,0.6);
 }
