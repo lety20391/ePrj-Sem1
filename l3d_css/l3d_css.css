@@ -129,11 +129,11 @@
 			padding:4rem;	
 		}
 		.multi-item-carousel .carousel-inner .item>div>a>img{
-				width:600px;	
+				width:100%;	
 		}
 		@media (max-width:767px){
 			.multi-item-carousel .carousel-inner .item>div>a>img{
-				width:150px;	
+				width:70%;	
 			}
 			.multi-item-carousel .carousel-inner .item>div{
 				padding:2rem;	
@@ -472,7 +472,7 @@ Day la CSS cho Detail product
 }
 
 /*Show case*/
-.carousel-caption {
+.carousel-caption.showcase-l3d {
   position: relative;
   left: 0%;
   right: 0%;
@@ -489,17 +489,17 @@ Day la CSS cho Detail product
   }
 }
 
-.carousel {
+.carousel.showcase-l3d {
     position: relative;
 }
 
-.controllers {
+.controllers.showcase-l3d {
     position: absolute;
     top: 0px;
 }
 
-.carousel-control.left, 
-.carousel-control.right {
+.carousel-control.left.showcase-l3d, 
+.carousel-control.right.showcase-l3d {
     background-image: none;
 	padding:5px;
 	margin-top:150px;
