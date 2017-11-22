@@ -50,7 +50,7 @@
     <div ng-repeat="x in cateData">
         <div class="container prCat-l3d oddIndex" ng-if="$even && $index < amount">
             <div class="col-md-8">
-                <img class="img-responsive" src="{{x.catImg}}" width="400px" height="150px">            
+                <img class="img-responsive" src="{{x.catImg}}" width="400px" height="150px" alt="{{x.Cate}}">            
             </div>
             <div class="col-md-4">
                 <p class="prCat prName">{{x.Cate}}</p>
@@ -72,7 +72,7 @@
                 <button id="{{x.Cate}}" class="btn btn-primary" onClick="getID(this)">Goto {{x.Cate}} Page</button>
             </div>
             <div class="col-md-8" align="right">
-                <img class="img-responsive" src="{{x.catImg}}" width="400px" height="150px">
+                <img class="img-responsive" src="{{x.catImg}}" width="400px" height="150px" alt="{{x.Cate}}">
             </div>
         </div>
     </div>

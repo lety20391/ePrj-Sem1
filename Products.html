@@ -60,7 +60,7 @@
                 <p class="prOff"> - {{x.Off * 100}} % </p>
                 <p class="prBriefInfo">{{x.Brief}}
                 </p>
-                <button id="{{x.ID}}" class="btn btn-primary" onClick="getID(this)">Details</button>
+                <button id="{{x.ID}}" class="btn btn-primary" onClick="getID(this)" alt="{{x.Name}}">Details</button>
                 <button id="" class="btn btn-primary" onClick="getName(this)">Showcase</button>
             </div>
         </div>
@@ -79,7 +79,7 @@
                 <button name="{{x.ID}}" class="btn btn-primary" onClick="getName(this)">Showcase</button>
             </div>
             <div class="col-md-8" align="right">
-                <img class="img-responsive" src="{{x.smImg}}" width="400px" height="150px">
+                <img class="img-responsive" src="{{x.smImg}}" width="400px" height="150px" alt="{{x.Name}}">
             </div>
         </div>
     </div>
