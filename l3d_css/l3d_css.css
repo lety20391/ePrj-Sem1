@@ -312,6 +312,12 @@ Day la CSS cho query
 			margin:auto;
 			width:80%;	
 		}
+		.container.query-link-l3d{
+			margin:auto;
+			width:80%;
+			font-size:1.75rem;
+			text-align:center;	
+		}
 		.question-query-l3d>p{
 			font-size:1.23rem;
 			color:rgba(44, 62, 80,1.0);
