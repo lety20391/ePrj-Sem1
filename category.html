@@ -49,10 +49,10 @@
     Neu ID la so le thi hien thi, so chan thi bo qua -->    
     <div ng-repeat="x in cateData">
         <div class="container prCat-l3d oddIndex" ng-if="$even && $index < amount">
-            <div class="col-sm-8">
+            <div class="col-md-8">
                 <img class="img-responsive" src="{{x.catImg}}" width="400px" height="150px">            
             </div>
-            <div class="col-sm-4">
+            <div class="col-md-4">
                 <p class="prCat prName">{{x.Cate}}</p>
                 <p class="prBriefInfo">{{x.Pro}}
                 </p>
@@ -65,13 +65,13 @@
     Neu ID la so chan thi hien thi, so le thi bo qua -->
         
         <div class="container prCat-l3d" ng-if="$odd && $index < amount" >	
-            <div class="col-sm-4">
+            <div class="col-md-4">
                 <p class="prCat prName">{{x.Cate}}</p>         
                 <p class="prBriefInfo">{{x.Pro}}
                 </p>
                 <button id="{{x.Cate}}" class="btn btn-primary" onClick="getID(this)">Goto {{x.Cate}} Page</button>
             </div>
-            <div class="col-sm-8" align="right">
+            <div class="col-md-8" align="right">
                 <img class="img-responsive" src="{{x.catImg}}" width="400px" height="150px">
             </div>
         </div>

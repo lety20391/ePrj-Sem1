@@ -52,10 +52,10 @@
     Neu ID la so le thi hien thi, so chan thi bo qua -->    
     <div ng-repeat="x in proData">
         <div class="container prCat-l3d oddIndex" ng-if="$even && $index < amount">
-            <div class="col-sm-8">
+            <div class="col-md-8">
                 <img class="img-responsive" src="{{x.smImg}}" width="400px" height="150px">            
             </div>
-            <div class="col-sm-4">
+            <div class="col-md-4">
                 <p class="prCat prName">{{x.Name}}</p>
                 <p class="prOff"> - {{x.Off * 100}} % </p>
                 <p class="prBriefInfo">{{x.Brief}}
@@ -70,7 +70,7 @@
     Neu ID la so chan thi hien thi, so le thi bo qua -->
         
         <div class="container prCat-l3d" ng-if="$odd && $index < amount" >	
-            <div class="col-sm-4">
+            <div class="col-md-4">
                 <p class="prCat prName">{{x.Name}}</p>
                 <p class="prOff"> - {{x.Off*100}} % </p>
                 <p class="prBriefInfo">{{x.Brief}}
@@ -78,7 +78,7 @@
                 <button id="{{x.ID}}" class="btn btn-primary" onClick="getID(this)">Details</button>
                 <button name="{{x.ID}}" class="btn btn-primary" onClick="getName(this)">Showcase</button>
             </div>
-            <div class="col-sm-8" align="right">
+            <div class="col-md-8" align="right">
                 <img class="img-responsive" src="{{x.smImg}}" width="400px" height="150px">
             </div>
         </div>
