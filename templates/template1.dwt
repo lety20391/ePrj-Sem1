@@ -17,7 +17,7 @@
 <!--Day la phan Logo Header-->
 <div class="jumbotron jumb-homepage-l3d" >
     <div class="container">
-        	<img src="Dat/logo.png">            
+        	<img src="Dat/logo.png" >            
     </div>
 </div>
 <!--Day la phan menu-->
