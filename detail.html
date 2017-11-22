@@ -61,7 +61,7 @@
         PRODUCT ID: {{proID}}<br/><br/>        
         {{proDetail}}
         </p>
-        <p class="prPrice">{{proPrice*proOff | currency}}
+        <p class="prPrice">{{proPrice*(1-proOff) | currency}}
         </p>
         <p class="prSaleOff">- {{proOff*100}}%
         </p>
