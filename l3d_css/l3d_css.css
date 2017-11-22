@@ -324,11 +324,16 @@ Day la CSS cho Detail product
 	------------------
 		------------ */
 		.contain-pr-l3d{
+			margin:auto;
+			width:80%;
 			margin-bottom:2rem;
 			padding-bottom:2rem;	
 		}
 		.prImg-l3d{
-			padding:1rem;	
+			padding:1rem;
+		}
+		.prImg-l3d>img{
+			width:150%;
 		}
 		.prInfo-l3d{
 			padding:1rem;	
@@ -377,7 +382,66 @@ Day la CSS cho Detail product
 			font-size:2rem;
 			color:red;	
 		}
-
+		@media (max-width:992px){
+			.prImg-l3d>img{
+				width:100%;
+			}
+			.prInfo-l3d .prDetail{
+				font-size:1.25rem;
+			}
+			.prInfo-l3d .prName{
+				font-size:2.5rem; /* */
+			}
+			.prInfo-l3d .prPrice{
+				font-size:1.5rem;	/* */
+			}
+			.prInfo-l3d .prSaleOff{
+				font-size:1.5rem; /* */	
+			}
+			.prInfo-l3d .prPriceOld{
+				font-size:1.5rem; /* */
+			}
+		}
+		@media (min-width:992px) and (max-width:1200px){
+			.prImg-l3d>img{
+				width:150%;
+			}
+			.prInfo-l3d .prDetail{
+				font-size:1rem;
+			}
+			.prInfo-l3d .prName{
+				font-size:1.5rem; /* */
+			}
+			.prInfo-l3d .prPrice{
+				font-size:1.25rem;	/* */
+			}
+			.prInfo-l3d .prSaleOff{
+				font-size:1.25rem; /* */	
+			}
+			.prInfo-l3d .prPriceOld{
+				font-size:1.25rem; /* */
+			}
+		}
+		@media (min-width:1200px){
+			.prImg-l3d>img{
+				width:150%;
+			}
+			.prInfo-l3d .prDetail{
+				font-size:1.25rem;
+			}
+			.prInfo-l3d .prName{
+				font-size:2.5rem; /* */
+			}
+			.prInfo-l3d .prPrice{
+				font-size:1.5rem;	/* */
+			}
+			.prInfo-l3d .prSaleOff{
+				font-size:1.5rem; /* */	
+			}
+			.prInfo-l3d .prPriceOld{
+				font-size:1.5rem; /* */
+			}
+		}
 /*--------------------
 ----------------------
 Day la CSS cho Cereal product
