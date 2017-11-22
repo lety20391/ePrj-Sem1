@@ -101,14 +101,9 @@
 			margin:auto;
 			width:90%;
 			text-align:center;
-			font-size:1rem;	
+			font-size:1.5rem;	
 			align-items:center;
-		}
-		@media (min-width:768px){
-			.container.amount-homepage-l3d{
-				display:flex;
-			}
-		}
+		}		
 		.slider.slid-l3d {
 			-webkit-appearance: none;
 			margin:auto;			
@@ -146,7 +141,22 @@
 			font-weight:bold;
 			margin-bottom:1rem;	
 		}
-		
+		/*CSS slide res >768 */
+		@media (min-width:768px){
+			.container.amount-homepage-l3d{
+				display:flex;
+			}
+			/* Gach ngang khi res > 768 */
+			.container.amount-homepage-l3d>div.col-sm-2{
+				border-bottom:medium solid rgba(44, 62, 80,0.7); 	
+			}
+		}
+		@media (max-width:768px){
+			.container.amount-homepage-l3d>div.col-sm-5.hr-l3d{
+				padding-bottom:2rem;
+				border-bottom:medium solid rgba(44, 62, 80,0.7); 	
+			}
+		}
 		.section-homepage-l3d{			
 			background-color:rgba(44, 62, 80,1.0);
 			text-align:center;
