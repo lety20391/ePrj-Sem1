@@ -308,6 +308,10 @@ Day la CSS cho query
 			font-weight:bold;
 			color:white;
 		}
+		.query-l3d{
+			margin:auto;
+			width:80%;	
+		}
 		.question-query-l3d>p{
 			font-size:1.23rem;
 			color:rgba(44, 62, 80,1.0);
