@@ -70,7 +70,19 @@
 	<div class="jumbotron section-homepage-l3d">    	
         	<p>Amazing Sale Off Product</p>    
 	</div>
+    
 <div id="ownerAngular" ng-app="homeApp" ng-controller="homeController">
+<div class="container amount-homepage-l3d">
+	<div class="col-md-5">
+        <p>How many products which you want to display?</p>
+    </div>
+    <div class="col-md-2">
+        <button class="btn btn-success">{{amount}}</button>
+    </div>
+    <div class="col-md-5">
+    	<input type="range" min="1" max="{{data.length}}" value="3" class="slider slid-l3d" id="myRange" ng-model="amount">
+    </div>
+</div>
 <div ng-repeat="x in data">
 	<!--Day la phan Highlight product 1-->    
     <div class="container hlight-homepage-l3d" ng-if="$even &&  $index < amount">
