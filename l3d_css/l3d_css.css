@@ -103,7 +103,11 @@
 			text-align:center;
 			font-size:1rem;	
 			align-items:center;
-			display:flex;
+		}
+		@media (min-width:768px){
+			.container.amount-homepage-l3d{
+				display:flex;
+			}
 		}
 		.slider.slid-l3d {
 			-webkit-appearance: none;
@@ -139,7 +143,8 @@
 		.container.amount-homepage-l3d>div>button{
 			width:5rem;
 			font-size:1.5rem;
-			font-weight:bold;	
+			font-weight:bold;
+			margin-bottom:1rem;	
 		}
 		
 		.section-homepage-l3d{			
