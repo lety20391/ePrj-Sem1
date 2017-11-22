@@ -558,45 +558,7 @@ Day la CSS cho Cereal product
 	font-size: 1.25rem;
 	<style>
 		}
-.button {
-  border-radius: 2px;
-  background-color: #6C0;
-  border: none;
-  color: #FFFFF;
-  text-align: center;
-  font-size: 15px;
-  padding: 10px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 1px;
-}
 
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-}
 	.info {background-color: #33CC00;} /* Blue */
 	.info:hover {background: #390;}
 /*Css cho Timeline*/
@@ -793,4 +755,50 @@ Day la CSS cho showcase
 }
 .carousel-indicators.showcase-l3d>li{
 	background-color:rgba(95,201,95,0.6);
+}
+
+
+/*Button for contact us page*/
+
+.button.cont {
+  border-radius: 4px;
+  background-color: #69BB02;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button.cont span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button.cont span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button.cont:hover span {
+  padding-right: 25px;
+}
+
+.button.cont:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+h3
+{
+	font-size:42px;
 }
