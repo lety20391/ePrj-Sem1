@@ -50,6 +50,13 @@
 			margin-left:1.8rem;
 			font-size:1rem;	
 		}
+		/* CSS cho navbar res > 768 */
+		@media (min-width:768px){
+			.navbar .container-fluid{
+				display:flex;
+				justify-content:center;
+			}
+		}
 		/*CSS cho navbar khi man hinh nho hon 992px*/
 		@media (max-width:992px){
 			.container-fluid .nav>li>a{			
@@ -77,12 +84,7 @@
 		.navbar-header .navbar-brand{
 			color:white;
 		}
-		/*Het Chu mau trang cho noi dung trong Menu*/
-		
-		.navbar .container-fluid{
-			display:flex;
-			justify-content:center;
-		}
+		/*Het Chu mau trang cho noi dung trong Menu*/		
 		
 		/*Day la CSS cho About us Homepage*/
 		.about-homepage-l3d{
