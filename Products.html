@@ -93,7 +93,7 @@
 		$scope.announceHide = true;		
 		//lay Category tu localStorage
 		Cate = localStorage.getItem("proCate");	
-		if (Cate !== ""){
+		if (Cate != ""){
 			$scope.announceHide = true;	
 		}else{
 			$scope.announceHide = false;	
@@ -130,9 +130,6 @@
 		localStorage.setItem("proID", Name);
 		window.location.href = "ShowCase.html";	
 	}
-	window.addEventListener("beforeunload", function() {
-		localStorage.setItem("proCate", "");
-	});	
 </script>
 <!-- InstanceEndEditable -->
 
